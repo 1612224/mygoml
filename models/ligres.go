@@ -7,6 +7,12 @@ import (
 	"gonum.org/v1/gonum/mat"
 )
 
+type LinearRegressionTarget float64
+
+func (t LinearRegressionTarget) Value() float64 {
+	return float64(t)
+}
+
 type LinearRegressionModel struct {
 	weights []float64
 }
@@ -24,7 +30,7 @@ func (m *LinearRegressionModel) Train(s mygoml.SupervisedDataSet) error {
 	for _, dp := range dps {
 		featureMatrixData = append(featureMatrixData, dp.Features()...)
 		featureMatrixData = append(featureMatrixData, 1)
-		targetVectorData = append(targetVectorData, dp.Target())
+		targetVectorData = append(targetVectorData, dp.Target().Value())
 	}
 	featureMatrix := mat.NewDense(len(dps), featuresCount+1, featureMatrixData)
 	targetVector := mat.NewVecDense(len(dps), targetVectorData)
@@ -50,15 +56,15 @@ func (m *LinearRegressionModel) Train(s mygoml.SupervisedDataSet) error {
 	return nil
 }
 
-func (m LinearRegressionModel) Predict(features []float64) (float64, error) {
+func (m LinearRegressionModel) Predict(features []float64) (mygoml.Target, error) {
 	if len(features) != len(m.weights)-1 {
 		msg := fmt.Sprintf("model expects %d features but got %d features", len(m.weights)-1, len(features))
-		return 0, mygoml.ErrIncompatibleDataAndModel(msg)
+		return LinearRegressionTarget(0), mygoml.ErrIncompatibleDataAndModel(msg)
 	}
 
 	featureVector := mat.NewVecDense(len(features)+1, append(features, 1)).T()
 	weightVector := mat.NewVecDense(len(m.weights), m.weights)
 	var result mat.VecDense
 	result.MulVec(featureVector, weightVector)
-	return result.At(0, 0), nil
+	return LinearRegressionTarget(result.At(0, 0)), nil
 }

@@ -1,8 +1,12 @@
 package mygoml
 
+type Target interface {
+	Value() float64
+}
+
 type SupervisedDataPoint interface {
 	Features() []float64
-	Target() float64
+	Target() Target
 }
 
 type SupervisedDataSet interface {
@@ -11,5 +15,5 @@ type SupervisedDataSet interface {
 
 type SupervisedModel interface {
 	Train(SupervisedDataSet) error
-	Predict(features []float64) (float64, error)
+	Predict(features []float64) (Target, error)
 }

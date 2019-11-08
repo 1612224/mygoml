@@ -17,8 +17,8 @@ func (hw HeightWeight) Features() []float64 {
 	return []float64{hw.Height}
 }
 
-func (hw HeightWeight) Target() float64 {
-	return hw.Weight
+func (hw HeightWeight) Target() mygoml.Target {
+	return models.LinearRegressionTarget(hw.Weight)
 }
 
 type HeightWeightSet []HeightWeight
