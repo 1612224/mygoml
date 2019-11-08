@@ -4,20 +4,14 @@ import (
 	"testing"
 )
 
-type FakeTarget float64
-
-func (ft FakeTarget) Value() float64 {
-	return float64(ft)
-}
-
 type FakeSupervisedDataPoint struct{}
 
 func (f FakeSupervisedDataPoint) Features() []float64 {
 	return []float64{1, 2, 3, 4, 5}
 }
 
-func (f FakeSupervisedDataPoint) Target() Target {
-	return FakeTarget(12)
+func (f FakeSupervisedDataPoint) Target() float64 {
+	return 12
 }
 
 type FakeSupervisedDataSet []SupervisedDataPoint
@@ -34,8 +28,8 @@ func (f *FakeSupervisedModel) Train(SupervisedDataSet) {
 	f.TrainCalled = true
 }
 
-func (f FakeSupervisedModel) Predict(features []float64) (Target, error) {
-	return FakeTarget(0), nil
+func (f FakeSupervisedModel) Predict(features []float64) (float64, error) {
+	return 0, nil
 }
 
 func TestSupervised(t *testing.T) {
@@ -50,9 +44,9 @@ func TestSupervised(t *testing.T) {
 		DeepEqual(t, "features", expectedFeatures, gotFeatures)
 
 		// test target
-		expectedTarget := FakeTarget(12)
+		expectedTarget := float64(12)
 		gotTarget := fdp.Target()
-		DeepEqual(t, "target", expectedTarget, gotTarget)
+		FloatEqual(t, "target", expectedTarget, gotTarget)
 	})
 
 	// testing model
@@ -66,8 +60,8 @@ func TestSupervised(t *testing.T) {
 		}
 
 		// test predict
-		expectedTarget := FakeTarget(0)
+		expectedTarget := float64(0)
 		gotTarget, _ := fm.Predict([]float64{1, 2, 3, 4, 5})
-		DeepEqual(t, "predict", expectedTarget, gotTarget)
+		FloatEqual(t, "predict", expectedTarget, gotTarget)
 	})
 }
