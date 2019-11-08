@@ -13,6 +13,10 @@ type KMeansCluster struct {
 	center  []float64
 }
 
+func (kc KMeansCluster) Center() []float64 {
+	return kc.center
+}
+
 func (kc *KMeansCluster) Add(p mygoml.UnsupervisedDataPoint) {
 	kc.members = append(kc.members, p)
 }
@@ -78,6 +82,9 @@ func addMembersToClusters(dps []mygoml.UnsupervisedDataPoint, clusters []*KMeans
 }
 
 func calculateNewCenter(members []mygoml.UnsupervisedDataPoint) []float64 {
+	if len(members) == 0 {
+		return nil
+	}
 	sum := members[0].Features()
 	clen := len(sum)
 	mlen := len(members)
@@ -96,7 +103,9 @@ func calculateNewCenter(members []mygoml.UnsupervisedDataPoint) []float64 {
 func updateClustersCenters(clusters []*KMeansCluster) {
 	for _, c := range clusters {
 		newCenter := calculateNewCenter(c.Members())
-		c.center = newCenter
+		if newCenter != nil {
+			c.center = newCenter
+		}
 	}
 }
 
@@ -113,7 +122,7 @@ func sameCenter(a, b []float64) bool {
 		return false
 	}
 	for i := 0; i < len(a); i++ {
-		if math.Abs(a[i]-b[i]) > 0.00001 {
+		if math.Abs(a[i]-b[i]) > 0.0000001 {
 			return false
 		}
 	}

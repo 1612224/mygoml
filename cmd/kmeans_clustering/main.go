@@ -122,7 +122,7 @@ func main() {
 	p.Add(C1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(C2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
 	p.Add(C3.Plotter(draw.SquareGlyph{}, color.RGBA{B: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "kmeans_clustering_data.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "misc/kmeans_clustering_data.png"); err != nil {
 		panic(err)
 	}
 
@@ -147,7 +147,7 @@ func main() {
 	p.Add(C1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(C2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
 	p.Add(C3.Plotter(draw.SquareGlyph{}, color.RGBA{B: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "kmeans_clustering_final.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "misc/kmeans_clustering_final.png"); err != nil {
 		panic(err)
 	}
 }

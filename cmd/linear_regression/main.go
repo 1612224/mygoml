@@ -3,18 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"image/color"
 	"mygoml"
 	"mygoml/models"
 	"os"
-
-	"gonum.org/v1/plot/vg/draw"
-
-	"gonum.org/v1/plot/vg"
-
-	"gonum.org/v1/plot/plotter"
-
-	"gonum.org/v1/plot"
 )
 
 type HeightWeight struct {
@@ -95,28 +86,4 @@ func main() {
 	predict_160, _ := model.Predict([]float64{160})
 	fmt.Printf("Height: 155, Predicted Weight: %f\n", predict_155)
 	fmt.Printf("Height: 160, Predicted Weight: %f\n", predict_160)
-
-	// try plotting
-	// create new plot (the setting, ie label...)
-	p, err := plot.New()
-	if err != nil {
-		panic(err)
-	}
-	p.Title.Text = "Height & Weight Relationship"
-	p.X.Label.Text = "Height"
-	p.Y.Label.Text = "Weight"
-	p.Add(plotter.NewGrid())
-
-	// create line plotter (the brush)
-	scatter, err := plotter.NewScatter(hws)
-	if err != nil {
-		panic(err)
-	}
-	scatter.GlyphStyle.Shape = draw.CircleGlyph{}
-	scatter.GlyphStyle.Color = color.RGBA{R: 255, A: 255}
-	p.Add(scatter)
-	// save to file
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "example_plot.png"); err != nil {
-		panic(err)
-	}
 }
