@@ -1,31 +1,33 @@
-package models
+package kmeans
 
 import (
 	"math"
 	"mygoml"
 	"time"
 
+	"gonum.org/v1/gonum/floats"
+
 	"golang.org/x/exp/rand"
 )
 
-type KMeansCluster struct {
+type Cluster struct {
 	members []mygoml.UnsupervisedDataPoint
 	center  []float64
 }
 
-func (kc KMeansCluster) Center() []float64 {
+func (kc Cluster) Center() []float64 {
 	return kc.center
 }
 
-func (kc *KMeansCluster) Add(p mygoml.UnsupervisedDataPoint) {
+func (kc *Cluster) Add(p mygoml.UnsupervisedDataPoint) {
 	kc.members = append(kc.members, p)
 }
 
-func (kc *KMeansCluster) Reset() {
+func (kc *Cluster) Reset() {
 	kc.members = nil
 }
 
-func (kc KMeansCluster) Members() []mygoml.UnsupervisedDataPoint {
+func (kc Cluster) Members() []mygoml.UnsupervisedDataPoint {
 	var out []mygoml.UnsupervisedDataPoint
 	for _, v := range kc.members {
 		out = append(out, v)
@@ -33,29 +35,29 @@ func (kc KMeansCluster) Members() []mygoml.UnsupervisedDataPoint {
 	return out
 }
 
-type KMeansModel struct {
+type Model struct {
 	ClusterCount int
 }
 
-func createRandomClusters(dps []mygoml.UnsupervisedDataPoint, clusterCount int) []*KMeansCluster {
+func createRandomClusters(dps []mygoml.UnsupervisedDataPoint, clusterCount int) []*Cluster {
 	s := rand.NewSource(uint64(time.Now().Unix()))
 	gen := rand.New(s)
-	var clusters []*KMeansCluster
+	var clusters []*Cluster
 	chosen := gen.Perm(len(dps))[:clusterCount]
 	for _, i := range chosen {
-		var c KMeansCluster
+		var c Cluster
 		c.center = dps[i].Features()
 		clusters = append(clusters, &c)
 	}
 	return clusters
 }
 
-func findBestCluster(p mygoml.UnsupervisedDataPoint, clusters []*KMeansCluster) *KMeansCluster {
+func findBestCluster(p mygoml.UnsupervisedDataPoint, clusters []*Cluster) *Cluster {
 	pfs := p.Features()
 	mini := 0
-	mind := distance(pfs, clusters[0].center)
+	mind := floats.Distance(pfs, clusters[0].center, 2)
 	for i := 1; i < len(clusters); i++ {
-		if d := distance(pfs, clusters[i].center); d < mind {
+		if d := floats.Distance(pfs, clusters[i].center, 2); d < mind {
 			mini = i
 			mind = d
 		}
@@ -63,7 +65,7 @@ func findBestCluster(p mygoml.UnsupervisedDataPoint, clusters []*KMeansCluster) 
 	return clusters[mini]
 }
 
-func addMembersToClusters(dps []mygoml.UnsupervisedDataPoint, clusters []*KMeansCluster) {
+func addMembersToClusters(dps []mygoml.UnsupervisedDataPoint, clusters []*Cluster) {
 	for _, p := range dps {
 		c := findBestCluster(p, clusters)
 		c.Add(p)
@@ -89,7 +91,7 @@ func calculateNewCenter(members []mygoml.UnsupervisedDataPoint) []float64 {
 	return sum
 }
 
-func updateClustersCenters(clusters []*KMeansCluster) {
+func updateClustersCenters(clusters []*Cluster) {
 	for _, c := range clusters {
 		newCenter := calculateNewCenter(c.Members())
 		if newCenter != nil {
@@ -98,7 +100,7 @@ func updateClustersCenters(clusters []*KMeansCluster) {
 	}
 }
 
-func getCenters(clusters []*KMeansCluster) [][]float64 {
+func getCenters(clusters []*Cluster) [][]float64 {
 	var centers [][]float64
 	for _, c := range clusters {
 		centers = append(centers, c.center)
@@ -144,13 +146,13 @@ func sameCenterSet(a, b [][]float64) bool {
 	return true
 }
 
-func resetClusters(clusters []*KMeansCluster) {
+func resetClusters(clusters []*Cluster) {
 	for _, c := range clusters {
 		c.Reset()
 	}
 }
 
-func (km *KMeansModel) Clustering(ds mygoml.UnsupervisedDataSet) []mygoml.Cluster {
+func (km *Model) Clustering(ds mygoml.UnsupervisedDataSet) []mygoml.Cluster {
 	dps := ds.DataPoints()
 	// init centers & create clusters
 	clusters := createRandomClusters(dps, km.ClusterCount)

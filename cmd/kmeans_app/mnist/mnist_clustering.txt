@@ -1,0 +1,3200 @@
+########### Cluster ############
+-1
+                            
+                            
+                            
+                            
+           0000000000       
+        000000001110000     
+     0000112344443221000    
+   0000112467888765310000   
+  000011369A9877887410000   
+ 000001258BA755689852000    
+  0000136AA743347A851000    
+   000137A8521248A95100     
+    0014897311259B94100     
+    001489743357BC94100     
+    001489876779CC941000    
+    00136898889ACC831000    
+     00135677779CC731000    
+     00012334348CB620000    
+     00000111138CA51000     
+       000000138C941000     
+         0000149B83100      
+         0000159B73100      
+         000026AA63100      
+        0000037A963100      
+        00001368752100      
+         0000245431000      
+            0011110000      
+             00000          
+4
+                            
+                            
+                            
+                            
+                            
+         1C82        040    
+        1EFA        0DF2    
+       1BF9         8F6     
+       4FF1        2FA0     
+      19F6        2EF5      
+      AFC0        6F9       
+      AFB0      08EF        
+      AFFBA44448CFFA        
+      3EFFFFFFFFFFD2        
+       148FE8882FFA         
+               2FC1         
+               AF4          
+              5FF3          
+              9FA           
+              EF3           
+             6FE            
+             DF9 01         
+             DF95CA         
+             DFFF91         
+             3B810          
+                            
+                            
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+           09C0             
+          5EFF1             
+         1EFFFA1            
+         9FFFFFE70          
+        1FFDBFFFE1          
+        4FC 06DFFC1         
+        5F5   BFFB0         
+        AF9   EFF8          
+        5FD25AFEFE2         
+        1EFFFFB2DF9         
+         4FFF90 8FD2        
+          4980  0AFA        
+                 5FE1       
+                 0AF7       
+                  3FF2      
+                   7FA0     
+                   1DF2     
+                    1FA     
+                     BF2    
+                     0D4    
+                            
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+            3BFFFA2040      
+          04EFFFFFABF5      
+          3FFE44465EF4      
+         2EFB3   1CF8       
+         AFB2    4FF3       
+        9FF2    0BFB        
+        CFE    08FF4        
+        CFE   28FFE1        
+        AFFCCCEFFFA         
+        0BFFFFF4AF3         
+          4774 9FD1         
+               FFA          
+              2FF3          
+              9FA           
+             2FF5           
+             5FF5           
+             7FD            
+             CF7            
+             AF7            
+             5C3            
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+           49EFC7           
+         1CFFEDEF5          
+        1CFD40 1CA0520      
+        8FE0    214FF0      
+       5FE0      2EFA0      
+       8FC       0EFA       
+       AF4       5FF4       
+      0FF2      0DFF1       
+      0FF2     04FF8        
+      0DF7    17FFF2        
+       1FFB699DFEFE1        
+        4CFFFD94FF9         
+         0333  2FF4         
+               4FF1         
+               9FF1         
+              1EFB0         
+              4FF7          
+              5FF0          
+              AFC           
+              FF9           
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+                  A5        
+                 0E7        
+                 3F7        
+         2B1     3F5        
+         5F5     5F3        
+         AF3     BE0        
+        0EA0     CE         
+        3F7     1EA         
+        7F3     6F6         
+       0DE49BBFFFF7         
+       0FFFFDBBBFFF5        
+       0DE71    EFFC        
+        01     1FC22        
+               6F8          
+               7F4          
+               7F3          
+               7F3          
+               AF6          
+               BF5          
+               7B0          
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+           C3               
+          3F2               
+         0BE1   85          
+         5D1    8A          
+         87     5D          
+        2E7     5F1         
+        7D1     AF3         
+       1F7     2F8          
+      07F1     0E8          
+      1FB       A8          
+      0BE861    7D1110      
+       058CDDDDDEFFC70      
+           00255CF20        
+                AE1         
+                A8          
+                5B          
+                5E2         
+                1F3         
+                0DD         
+                 6A         
+                            
+                            
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+      1   05AFFFFF3         
+      8 16DFE988FF8         
+     A99DEB6    8FF3        
+    5FFF81      0DF8        
+    7C61         CF9        
+                 AF9        
+                 6F9        
+                 6F9        
+                 AF5        
+                 CF3        
+                 CC         
+                1D7         
+                4F6         
+                EF6         
+                FE          
+               2F9          
+               7F3          
+              1DE1          
+              3FB           
+              3F1           
+4
+                            
+                            
+                            
+                            
+                            
+            D7              
+           3F9    1E8       
+           AF7    1FB       
+          3EF5    5FB       
+         0DFA     8F7       
+         7FF4     CF5       
+        0EF6      CF1       
+        EFC1     2FF        
+      0AFF2      2FF        
+      1FFFEA221  8FF        
+      1FFFFFFFEADEFB        
+       5ADDDFFFFFFF4        
+            5885AFE         
+                9FD         
+                AF8         
+                DF8         
+               3FF5         
+               5FF2         
+               3FD0         
+                B6          
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+                            
+        7FA      4FB        
+        8F9      6FF3       
+        DF6      8FF2       
+       0EF5     5EFD        
+       3FF2    0BFFC        
+       3FF0    9FFF7        
+       9FF0   7FFFE1        
+       9FF0  5FFFFB         
+       6FF2 1FFFFF9         
+        AFA6FFFFFF4         
+        4BFFFFAFFC          
+          6B926FF9          
+              CFF8          
+              8FD0          
+              AFD           
+              9F7           
+              BF7           
+              CF7           
+              CF7           
+              1C7           
+                            
+                            
+1
+                            
+                            
+                            
+                            
+          9FA0              
+         1DFF4              
+          CFFB0             
+          8FFF5             
+          4FFF8             
+           CFFE2            
+           4FFFD            
+           0EFFE0           
+            7FFF4           
+            0CFFC1          
+             BFFF2          
+             9FFF7          
+             4FFFC0         
+             0DFFF7         
+              6FFFC         
+              4FFFE1        
+               CFFF8        
+               7FFFC        
+               2FFF7        
+               06EF3        
+                            
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+                            
+          000011111100000   
+        0001356888764321000 
+      0001358BCDCCB97532100 
+     0001369CCCBBBBA8632100 
+     001259BBA8767997531000 
+    0001379A96434678642100  
+    0001479963224687531000  
+     001379964346886421000  
+     00136898778986421000   
+      01257ABBBBA7521000    
+      001369BCDCA742000     
+      001258ACCCA74200      
+      001257999AA852000     
+     000135776679973100     
+   00001246653369A84100     
+   00012457642369A84100     
+   0012357764358BA73100     
+   001246898779BB95210      
+   0012469BBCCCCA63100      
+   0001247ACDDB964200       
+     000235677542100        
+       00000000000          
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+                49EFFFFF3   
+             5AEFFD8529F8   
+           8FFFDA30   6B0   
+           EFA30      20    
+           AF5              
+          2FD0              
+          8F9               
+          9F7               
+          EF2               
+         0FC22220           
+         4FFFFFFC50         
+         2BA88ADFFA0        
+               03BF7        
+                1DF6        
+               3DFC0        
+           0 08FFC3         
+         0579DFF70          
+       07FDFFFC3            
+       8FFFFC4              
+       4AC50                
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+                            
+           0106EF80         
+           5FBFFFF70        
+           7FFF93FF8        
+          3FFF60 9FA        
+          AFFF5  0CF5       
+          AFFF4   AFD       
+          AFF6    5FF       
+         1FFF     3FF       
+         2FFF     3FF       
+         8FFF     3FF       
+         EFEA     3FF       
+         FFA      3FF       
+         FFA      7FB       
+         FF5      AF4       
+         FF3     0CF1       
+         FF9     BFB0       
+         BFB1 14BFD1        
+         1EFDAEFFD1         
+          8FFFFFD1          
+          04FFB60           
+                            
+                            
+                            
+8
+                            
+                            
+                            
+                            
+                            
+                04 6BB51    
+             06CE5 DFFF7    
+          136CFB1  5FFF5    
+        15EFFD5  07FFB3     
+        8FFD70  3CFF80      
+       6FFD2   3FFD1        
+      2FFD3   1FFD1         
+      5FF3   1CFD1          
+      1DFE922CFC0           
+       7FFFFEFD1            
+        25AFFFFC70          
+          0EFEAEFD50        
+          6FF6  2EF80       
+          4FE0   0AF3       
+          6FF1    5FC       
+          5FF1    8F7       
+          0DF4   0BF3       
+           4FD1 07FB        
+            5ED7BFD1        
+             19CC61         
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+                            
+           10 0115888FDD4   
+        6AAEBABFFFFFFFFF8   
+       4EFFFFFFBAAA534FE2   
+      1DFBDFC410     041    
+     2FFB 3E1               
+     8FFDA532               
+     3FFFFFFE84             
+     011113BFFF83           
+            37FFF80         
+              3AFFA0        
+                8FF5        
+                06FC0       
+                 5FF4       
+                1DFF1       
+               4DFF60       
+              4DFF90        
+       40   1CFFF9          
+       C835AFFFD3           
+       AFFFFFF80            
+       08CFD81              
+                            
+                            
+8
+                            
+                            
+                            
+                            
+               37DB80       
+             3BFFFFFA0      
+            3EFD647FF4      
+           2EF80  3FF4      
+          0BF8   1DFC1      
+          0CF3  6FFD1       
+           AF427FFC30       
+           AFDEFFFC91       
+           8FFFFBE80        
+           4FFFFC1          
+           2AFFE1           
+          6FFCCFE1          
+         6FFC32FF9          
+       09FF70  4FF3         
+       2FF7    1FF3         
+       CFD0    2FF2         
+      4FF4   06EF7          
+      4FF414ACFFA0          
+      2EFFEFFFC60           
+       2EFFD63              
+                            
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+                  48FFFD1   
+               149FFFFFC0   
+            14AEFFFFD753    
+         14BDFFFFFB71       
+       3ADFFFFFB820         
+       9FFFFFB10            
+       1DFF500              
+       2FFF1                
+       1FFF41               
+        9FFFD73             
+        05EFFFF5            
+          25CFFF9           
+            02DFF5          
+              1DFF1         
+               AFF1         
+               8FF1         
+        760  05EFF1         
+        AFDCCCFFFB0         
+        6EFFFFFFB1          
+         078CB860           
+                            
+                            
+                            
+8
+                            
+                            
+                            
+                            
+                            
+                            
+         1777BFFFFFFE2      
+       8FFFFFFFFFFFFF5      
+      5FFFFFFF99CFFFD0      
+      4FFFB222  06FFB1      
+       DFFC1    6DFA11      
+       3DFFC3 1BFFE3        
+        6FFFFADFFE5         
+        1CFFFFFFF9          
+         17FFFFFA0          
+           5FFFFF6          
+          1CFFFFFA          
+          6FFC9FFC1         
+         3FFF0 5FF6         
+         AFF7   EFF3        
+        3EFF6   7FF4        
+        3EFF6   5FF4        
+         BFF7  2BFF3        
+         6FFFAAFFFA         
+         1CFFFFFFC1         
+           47FF74           
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+             07C1  023993   
+            16FF758CFFFC1   
+           1DFFFFFFFFA50    
+          1DFFFCBB853       
+          CFB220            
+        08FD1               
+        1FF1                
+        4FD1                
+        3FFE83              
+        04EFFFD7            
+           38EFFA1          
+             2AEFE8         
+               1CFE0        
+                6FF3        
+               2CFE         
+             04EFE3         
+        7   18FFC4          
+       4F34BEFFB3           
+       5FFFFFD50            
+       09FFB71              
+                            
+                            
+                            
+8
+                            
+                            
+                            
+                            
+                            
+               3AFFFB0      
+          132 7FFBBEF5      
+         5EFFEF71  4F7      
+         CFFFFC    7F5      
+         7FFFB4   2FF2      
+         0AFE3   2EF4       
+          2EFE8 2EFB0       
+           5FFB4EF90        
+            7FFFFB          
+            2FFFB0          
+           3DFFFB           
+          3EFBCFE           
+         3EF5 4FF3          
+         8F8  2FF8          
+        2FF1  1EFD          
+        7FC    8FF          
+        3FA    8FF          
+        0DF7138FFC          
+         8FFFFFFE1          
+         06CFFFA1           
+                            
+                            
+                            
+8
+                            
+                            
+                            
+                            
+                            
+             18DFF3         
+           04DFFFF5         
+          2DFFFFFF8 08D0    
+         1EFFE963A53CFF5    
+        09FFA4   06DFFB0    
+        9FF5    07FFE60     
+        DFA    2CFFE3       
+        DF5   2AFFC3        
+        DFA0 0BFFF5         
+        CFFC3AFFE3          
+        1FFFFFFA2           
+        05CFFFF6            
+          3FFFFD2           
+          5FCBFFE0          
+         1DF00AFF4          
+         2FF  07FC1         
+         1EF2  6FE0         
+          8FFFCFFD          
+          1AFFFFF3          
+           09EFE30          
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+         0000000000000      
+       00000112222110000    
+      000011235554321000    
+     0000011246776421000    
+     0000001247876421000    
+     00000012479864210000   
+     0000001258A863100000   
+     0000000259B95200000    
+      00000026AB84100       
+       0000127CC73000       
+        000139DC61000       
+        00014BDB4100000     
+        00026BDA31000000    
+       000137CC8310000000   
+      0000148BB62100000000  
+      0001258A952100000000  
+     00001468985310000000   
+     00012578875310000000   
+      0013567875310000000   
+     0001356676521000000    
+     000123445432000000     
+      00011111110000        
+        00000000            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+                2F6         
+                5F5         
+                8F          
+               2F9          
+               5F3          
+               CD0          
+              2FD           
+              5FC           
+              8F4           
+             3EC0           
+             7FA            
+             AF5            
+            1ED             
+            7F9             
+            9F8             
+            EF4             
+           3FF4             
+           8FC0             
+          0DF7              
+          0CB0              
+                            
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+                            
+                4F60        
+               1EFF0        
+               5FFA0        
+              0CFF4         
+              3FFF          
+              8FFB          
+              CFF3          
+             3FFE           
+             6FF8           
+             AFE1           
+            3FFD            
+            4FF9            
+            AFE3            
+           1FFD             
+           5FF8             
+           6FE1             
+           AFC0             
+          0DFC              
+          09FA              
+           196              
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+             8FB            
+             BFF4           
+             FFF8           
+             FFF            
+             FFF            
+             8FF8           
+             FFF8           
+             FFF8           
+             FFF8           
+             FFF8           
+             FFF            
+             FFF            
+             FFF            
+             FFF            
+             BFF8           
+             BFF8           
+            4FFF8           
+            BFFF8           
+           4FFF4            
+           4F8              
+                            
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+           DF0              
+           DF5              
+           CFF              
+           4CF1             
+            4F9             
+            6FF             
+            CFF             
+            7FF             
+            AFF             
+            EFF6            
+            3BFA            
+             7FE            
+             7FE            
+             7FE            
+             7FE            
+             DFE1           
+             CFF6           
+             7FF6           
+             7FF6           
+             4CF3           
+                            
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+                            
+            CC1             
+            CF8             
+            6F9             
+            6F9             
+            2FF             
+             FF5            
+             9FC            
+             9FC            
+             5FD0           
+             0DF3           
+              CF7           
+              AF9           
+              6F9           
+              6FC           
+              6FF           
+              6FF           
+              2FF           
+               FF           
+               AF3          
+               3F6          
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+                            
+           0DD3             
+           0BFB             
+            AFD0            
+            AFF3            
+            AFF3            
+            6FFA            
+            4FFA            
+            3FFD0           
+             DFF1           
+             DFF1           
+             DFF1           
+             DFF1           
+             DFF1           
+             AFF1           
+             DFF1           
+             DFF1           
+             8FF1           
+             6FF1           
+             6FF1           
+             1DB0           
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+              4D1           
+             1DF70          
+             4FFFA          
+             BFFFA          
+             BFFF9          
+             BFFF2          
+            2EFFB           
+            8FFF9           
+           0CFFF3           
+           2FFFF3           
+           2FFFE2           
+           2FFFB            
+           2FFF5            
+           2FFC0            
+           1DFF6            
+           1DFFB            
+           1DFFB            
+           1DFFB            
+           1DFFB            
+            7FF7            
+                            
+                            
+                            
+                            
+1
+                            
+                            
+                            
+                            
+             A1             
+             D9             
+             8E             
+             4E             
+             4E0            
+              F3            
+              F3            
+              F3            
+              F5            
+              F5            
+             1F4            
+             4F3            
+             4E0            
+             8E             
+             AE             
+             ED             
+             E9             
+            0E4             
+            3F2             
+            6F              
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+              266           
+              5DFA          
+               1ED1         
+                CF2         
+               2FA          
+               4F2          
+              2ED           
+             0AE1           
+             8FA            
+            1FC             
+           1CE3             
+           8F6 1333777980   
+          5FFDCEFFFFFFFF5   
+       03AFFFFD66      AC   
+      7DFFFC630         2   
+     AFFFE2                 
+     FFF81                  
+     662                    
+                            
+                            
+                            
+                            
+                            
+                            
+3
+                            
+                            
+                            
+                            
+         19FFA2             
+        1DFFFF4             
+        9F98FFB             
+        85  AFC0            
+            0CF3            
+            3FF3            
+            4FD1            
+            BFB             
+           2EFC30           
+           3FFFF92          
+           2BEFFFB0         
+             25CFFC1        
+               0DFF1        
+                CFF1        
+              18FFD1        
+             4CFFD2         
+           6EFFFA2          
+          6FFFF80           
+          AFFF80            
+          6FE20             
+                            
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+           000000000000     
+         001123444321000    
+       000135689997531000   
+      0002368ABCBBA863100   
+      001368ABBBBBBA86310   
+     001358ABBA9889AA8520   
+     00247ABA9765579A9730   
+    001469BA86432347AA841   
+    00259BB9642111269A9510  
+    0147AB96421000259B9620  
+    0259BA84200000159B9620  
+    037AB962100000259B9620  
+    048BB84100000137AB8510  
+    159BB73100001259BA7410  
+    169BA6310001258AB9620   
+    159BA731112358AB97410   
+    158BB85434579ABA74200   
+    147ACB98789ABBA74210    
+   00258BCCCBBBBB9642100    
+    01358ACCCCB97532000     
+    001246788865321000      
+      0001111111000         
+           0  0             
+                            
+                            
+0
+                            
+                            
+                            
+                            
+            09FC1           
+            2FFF6           
+           1CFFF6           
+          6BFFFFA63         
+          FFFFFFFFD3        
+         BFFFFFEDFFF        
+        3DFFFF9438FF6       
+       2EFFFD80  1EFF70     
+       2FFFB1     6FFF2     
+       2FFC1      1CFF2     
+       2FF        2CFFA     
+       8FF        6FFF2     
+       DFF      13EFFE1     
+       DFF      9FFFD3      
+       DFF     BDFFFB       
+       DFF44EFFFFFFF        
+       7FFFFFFFFFFF9        
+       1EFFFFFFFEB20        
+        38FFFFFF6           
+          4AFA441           
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+           3027C773         
+         0BFEFFFFFFE5       
+         9FFFDCBBBFFF2      
+        2EFE410  08FFA1     
+        3FF6       8FF4     
+        3F9         DF9     
+        CF6         9FD     
+       2DE3         5FD     
+       7FA          5FD     
+       DE3          5FD     
+       DC           5FD     
+      0DC           5FD     
+      6FC           AFD     
+      6FC          3EF4     
+      6FC         3AFC0     
+      4FC        0AFE3      
+       DD1     29CFF3       
+       DFCBBBBBEFFE90       
+       5CFFFFFFFFE7         
+        1DFFFFF96           
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+                            
+            148FFA81        
+          07EFFFFFF9        
+          6FFFFBFFFF        
+         2EFFF708FFF        
+        2BFFD20 03EFD       
+        5FFF7     8FF9      
+        AFFB       DFC      
+       1DFF5       7FC      
+       4FFC1       7FD1     
+       7FF3        7FF4     
+       8FF         7FF4     
+       BFF         7FF4     
+       BFF         7FF3     
+       BFF         DF7      
+       3EF9        EE0      
+        5FF3      9FA       
+        2AF7     4EE2       
+         2DF8  25EF8        
+          1BFC6EFFB2        
+           03BF8830         
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+             05C55550       
+             0FFFFFF9       
+         033 0FFFFFFFE3     
+         8FF50AFFFFFFF3     
+       08FFF9 4DFFFFFFD     
+       9FFFFC2  AF8CFFF4    
+     08FFFFFF4  0301CFF9    
+     5FFFFFFD2      2FFC2   
+     5FFFFFE2       2FFF4   
+     FFFFFFA        DFFF4   
+     FFFFFA1        DFFF4   
+     FFFFD0      2EFFFF90   
+     FFFFD     69DFFFFF4    
+     FFFFD333BEFFFFFFF4     
+     AFFFFFFFFFFFFFFFC1     
+     5FFFFFFFFFFFFFEC1      
+     2DFFFFFFFFFFFE4        
+      2EFFFFFFFFFE4         
+       2DFFFFFFB7           
+        26FFB441            
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+                            
+         2FFFFFF9850        
+         2FFFFFFFFF60       
+         08EFFFFFFFF1       
+           3FFAEFFFF6       
+          0BFB 18FFFD0      
+         08FD1   BFFF1      
+         2FF7    4FFF6      
+         7FC1     BFF9      
+        2EF4      5FF9      
+        9FB       5FF9      
+       0EF5       5FF9      
+       1FF5       5FF9      
+       1FF5       5FF6      
+       1FF8       5FD1      
+       1FFE2      8F9       
+       1FFFE7 466CFD2       
+       09FFFFEFFFFF6        
+        5FFFFFFFFF70        
+        02FFFFFFF70         
+         135DA6000          
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+                            
+            01              
+           6DE8355552       
+         09FFFFFFFFFF81     
+        2CFFFFFEC88CFFB0    
+       2EFEC78C2    2BF8    
+      1DFE20  0      0EF7   
+     07FF4            5FF   
+     3FF6             4FF   
+     DFE0             4FF   
+     FF7              4FF   
+     FF2              8FC   
+     FF4             1FF8   
+     FF40          04DFE2   
+     AFF5        27CFFC1    
+     1DFFB863888CFFFE80     
+      1AFFFFFFFFFFF71       
+        3ABBDBBB753         
+            0               
+                            
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+           5FFFF8           
+          5FFFFFFFA72       
+          DFFFFFFFFFE6      
+         9FFFE33AFFFFE      
+        5FFFB1  03AFFF9     
+       5EFFF3     1DFFF2    
+      2FFFF80      2DFF7    
+      7FFFE1        9FF7    
+      7FFF3         9FF7    
+      9FFB0         9FFD    
+      FFF3          9FFF    
+      9FF7          9FFD    
+      DFF9         0AFF7    
+      AFF9        08FFF7    
+      7FF9       04FFFF6    
+      2FFD2    018FFFF9     
+       FFFD2899AFFFFFD      
+       6FFFFFFFFFFFF9       
+        EFFFFFFDD9B72       
+         A8E5775            
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+                            
+             2CE4591        
+            2EFFFDFD1       
+           8CFEDF7DFC0      
+          8FFA29B16FF3      
+         6FFC2    04BE3     
+        2FFF2       6FB     
+       1EFF80       09E0    
+       2FF90         4F2    
+       4FF           3E1    
+       9FF           7F2    
+       BFE           3F2    
+      3FF4          2ED     
+      3FF4          7FA     
+      2EF5         2EF3     
+       3FF        2BFB0     
+       1DFA0      AFE0      
+        6FF60   39FE6       
+        18FFDB8DEFE3        
+         19EFFFFFB5         
+            34A63           
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+              5D80          
+             5FFFB1         
+            1DFFFFE5        
+            CFE23DFA        
+           4FF3  1DF5       
+          1EF5    9FD       
+          4FC1    1DD       
+         3FF4      9E2      
+         6FF1      6F3      
+         9F80      6F6      
+        2EF3       6FA      
+        8FD        6F8      
+        AFC        9F3      
+       0EF6       1DF2      
+       0BF6       9FD       
+        AFD0     3DF8       
+        8FF70  07FFA        
+        0AFFB77EFF80        
+         5EFFFFFF5          
+          14BDD820          
+                            
+                            
+                            
+                            
+0
+                            
+                            
+                            
+                            
+           4BFFFFF84        
+          BFFFF848FF8       
+         BFFFFB   8FFB      
+        4FFB884    FFF4     
+        BFF8       4FFF4    
+       BFFF         8FF8    
+       FFF4         4FFB    
+      BFFF           8FF    
+     4FFF4           4FF8   
+     8FF8            4FF8   
+     FFF4            BFF4   
+     FFF            8FF8    
+     FF8           8FFB     
+     FFB          8FFF4     
+     FFF         BFFFF      
+     FFF8      4FFFFB       
+     8FFF8  48BFFFF4        
+     4BFFFFFFFFFFB          
+       BFFFFFFFB            
+        4FFFFF4             
+                            
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+          000000            
+       0000000000           
+      0000111100000 00      
+      000122110000000000    
+    000112332100001111000   
+    001234543222122222100   
+   0001357754333334432100   
+  00012589853333345543100   
+  000147AA743222357753100   
+  000258B9631112368874200   
+  001269B84111124799752100  
+  00137AA631111358AA753200  
+   0148BA621123579BA754210  
+   0148BA74334579AB9754310  
+   0137AB9766789AAB9754310  
+   01369BA9889999AB9754210  
+   001468998888889A9643100  
+    01235666666679A9642100  
+    00012344445679A853100   
+    000011234456799742100   
+      0000112345677531000   
+        00001123456421000   
+         000011234432100    
+          00000123321000    
+            00001111000     
+              000000000     
+                000         
+4
+                            
+                            
+                            
+                            
+                            
+          3E       41       
+          7E       9A       
+         0CE       6D0      
+         4F8       7F1      
+        2ED0       CF1      
+        AF3       1FF1      
+       5FD        8FB0      
+       AF6       2EF4       
+      0EF        8FD        
+      1FA        AFA        
+      0CD1      1FF6        
+       AFC55558ACFF6        
+       2AFFFFFEEFFF0        
+         35555  AFF         
+                7FF2        
+                8FF         
+                7FF         
+                8FF         
+                EE6         
+                B4          
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                 12221852   
+               49DFFFDFFF   
+            28FFFFFFFFFFF   
+            3FFFFFFFDAAAA   
+        184 3EEEA7410       
+       0CF4  2 10           
+      0BF80                 
+     08FE0                  
+     5FD1                   
+     9FA                    
+     EFF73                  
+     FFFFF95752251          
+     8FFFFFFFFFFFEA         
+     03DDFFFFFFFFFF7        
+         44CFFFFFFFA        
+           7FF93AFFA        
+           3FFFBFFF9        
+           0AFFFFFA0        
+            1BEFD8          
+              591           
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+          0CFB              
+         09FF7              
+         7FB3               
+         8F7                
+         9F3                
+        1FC                 
+        9FC       3552      
+        EF6     9EFFFE7     
+       0EE   03EFFEAEFE1    
+       6F9  18FFE81  BF3    
+       9F7  9FFB2    8F3    
+       BF7 2EF90     8C0    
+       CF7 9FA       9C     
+       CF7 AFB      1FA     
+       CF7 1EF71    CF3     
+      1DF7  1CFC0 4CF7      
+       BFB0   4219FF7       
+       1DFC5338CFFD5        
+        1DFFFFFFF91         
+         168F8882           
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+         7F3                
+         EF3                
+        1F7                 
+        7F5                 
+        CF1                 
+       1FE                  
+       8F8      35583       
+       AF5     3EFFFF3      
+       AF5     AFF73EC      
+       AF5    3FF5  AF      
+       AF5    AF5   AF5     
+       8F7   1FC    AF5     
+       1FF   AF7    CE      
+        CF7  AF5   5F7      
+        5FFA3FF1  5EE1      
+         7EFFFF55AFF3       
+          18FFFFFFC1        
+             EFF85          
+             8FFAA3         
+              8EA71         
+                            
+                            
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+          10                
+          BB4          10   
+          8F7          88   
+          6F7         4FF   
+          DF7         8FC   
+         2FF7         CF4   
+         6FF6        0CF1   
+        0DFA         5F9    
+        9FF2         BF9    
+       4FFD0        0CF9    
+      0CFF3         3FF3    
+      2FFA0         3FF2    
+     4CFD1 00000000 3FA0    
+     9FFE999FFFCFF507F9     
+     EFFFFFFFFFDEDFCEF3     
+     6FFECBB7441104BFC0     
+     03310         9F9      
+                   120      
+                            
+                            
+                            
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+       7D        03         
+       EF        3F5        
+       FF        3FA        
+       FF2       3FD1       
+       FF6       3FF3       
+       FF6       3FF3       
+       FF6       3FF338     
+       FF3       5FD3C9     
+       FF6       9FFFC1     
+       FF6      2CFFD1      
+       CFF83338DFFFF3       
+       3EFFFFFFFFFFD0       
+        5EFFFFC86FFB        
+         13332   FF6        
+                 9FC        
+                 EF7        
+                 FF6        
+                 FF6        
+                 AF6        
+                 0A3        
+                            
+                            
+                            
+6
+                            
+                            
+                            
+         1CD                
+        1CFD                
+       1CFF8                
+       8FF9                 
+      1DFE2                 
+      DFF9                  
+      FFF2                  
+      FFE       2333330     
+      FFE     4BEFFFFFB71   
+      FFE    0CFFCB98BFFD7  
+      FF8    9FFA0    6DFF  
+      FFD    AFF3      7FF  
+      FFE    AFF3      7FD  
+      FFF2   AFFA      7F5  
+      6FFE5  17EFB4    9F7  
+      0CFFD    7EFF5  2FF5  
+       1FFF92   39BFB6EF50  
+       05CFFFD77777AFFC10   
+         58DFFFFFFFD850     
+           018888881        
+                            
+                            
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+        5F8                 
+       1CFF1        9E6     
+       3FFF1       2FFC     
+       3FFB0       8FF6     
+       3FF8       1CFF3     
+       7FF8       1FFD1     
+       CFF8       1FF2      
+       CFF1      04FF1      
+      3EFE       3FFB0      
+      5FFB8888843AFF8       
+      5FFFFFFFFFFFFF8       
+      3EFFFFFFDDFFFF8       
+       4CC3333113DFD1       
+                4EF7        
+                EFF7        
+                EFF7        
+               6FFF4        
+               7FFF5        
+               2EF96        
+                9F5         
+                            
+                            
+                            
+6
+                            
+                            
+           069              
+           2FA              
+           DF8              
+         09F80              
+         5F6                
+         AD0       11       
+        4F6      07EEA      
+        9C      3EFFFF3     
+        FA     0CFA4DF4     
+       2E0     BFA0 CF      
+       AD     3FC1  9F      
+       D9     BF4   CA      
+       DB     DE0  2F8      
+       D7    2ED  0CF1      
+       DC    4F6  7FA0      
+       DE    4F6 4FF3       
+       6F8   4FA2DE30       
+        AE90 6FFFF7         
+        5EFCBEFFFF5         
+         28FFD89D60         
+                            
+                            
+                            
+                            
+                            
+                            
+4
+                            
+                            
+                            
+                            
+                            
+                    0BF2    
+                   58FE1    
+                  6EFF2     
+        052      0CFE4      
+       3BF4      55EB       
+      1EA3       39E3       
+    088D1        DF8        
+    2FF4        3DF8        
+    2FF4        3BF5        
+    4FF90      22EC0        
+    4FFFC60  33BDFA         
+    07FFFFFFFFFFFF9         
+      7CFFFFFECFFA2         
+       019700003FB2         
+               0BF4         
+               8EF4         
+               CFE1         
+               CB8          
+               FA5          
+               80           
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+                            
+                            
+          000000000         
+     000011122232211000     
+   000123456789998752100    
+   0012468ACCDCCCCB85200    
+  0001357ACCBAA9ABCA63100   
+  00013479A875457ACA73100   
+  000124676421125ACA6310    
+   00023554210126BC95200    
+    0013432111249DC73100    
+    001232222237CDA52000    
+     00112222249DD831000    
+     0000111226BEB520000    
+      000001138DD8300000    
+       0000015BEB51000 0    
+        000138DD820000 0    
+        00025ADB51000  0    
+        00137CC83000        
+       001259CB61000        
+       00147AB941000        
+       01258AA73000         
+      001247885200          
+      000123432000          
+         000000             
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+      5B9932                
+      DFFFFFCCCCCCCCA3      
+      4747AEFEFFFFEFF8      
+           14044431EF6      
+                  5FD1      
+                 1EF5       
+                 8FE2       
+                3FF3        
+                8FB0        
+               0CF3         
+               7FB          
+              4FF3          
+             1DFA           
+            0CFD2           
+            2FF4            
+           1EF70            
+           8FF3             
+          3FFF3             
+          7FFD2             
+          7FC1              
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+    4FFFFFAA8153            
+    6FFFFFFFFFFFC742        
+    068667CCCEFFFFFF8       
+             277CFFFF0      
+                029FF8      
+                  2FF2      
+                  7FF7      
+                 2FFF1      
+                 6FF8       
+                2FFF2       
+               1BFF7        
+               8FFD0        
+              5FFF2         
+             3FFF5          
+            1FFF90          
+           06FFC0           
+           3FFF5            
+          0EFFC0            
+          5FFC1             
+          2EC1              
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+      399559FFFFD992        
+     1CFFFFFECEEEFFF1       
+     AFFFF83     3EF5       
+   0AFFF710       DF1       
+   8FFB2         2FF1       
+   8C5           BF9        
+                0FF4        
+                AFA         
+               2FF2         
+               4FA0         
+              1EF           
+             05FFDDDB       
+            1AFFFFFFD       
+            CFFFB7211       
+            74CE2           
+             5FD            
+             7FA            
+             7F7            
+             7F7            
+             4C2            
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+           16BFFD60         
+        18DFFFFEFF5         
+      19EFFDCB41DF6         
+      2FFE20    6F6         
+       742      4FB         
+                5F9         
+                7F2         
+               0CA0         
+               6F7          
+             2DCF72         
+             2FFFFFB4       
+              8FFFDFD       
+             0BD434B8       
+             8F7            
+            1CA0            
+            8E2             
+           3E6              
+           AE1              
+           E7               
+           A0               
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+          1002              
+  DFFFEFFFFCDFEB81          
+  BFFFFFFFFFFFFFFFBA61      
+   000000056878EFFFFF6      
+               03AEFFF      
+                  3EFF      
+                  1DFB      
+                  9FF6      
+                 2DF9       
+                1DFE4       
+               1DFF4        
+              0BFF5         
+              8FFB          
+             4FFB0          
+            1EFE2           
+           1DFF3            
+          0CFF80            
+          6FFA0             
+          CFB1              
+          24                
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                 2ED1       
+    0111   010113DFF2       
+    9FFE489CFDFFFFF9        
+    7DDCDEFFFFFFFFB1        
+     01 1244444BFE2         
+              0BF6          
+              7FF4          
+              9FE2          
+          5666CFF866A3      
+         5FFFFFFFFFFF5      
+          6EFFFFFB95        
+             0FF4           
+             0FD            
+             5FD            
+             8FD            
+             EFB            
+             FF6            
+             FF6            
+             FF6            
+             5F3            
+                            
+2
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+         02888831           
+       27CFFFFFFD5          
+      6CFE921127FFA         
+     3EF60      6FF3        
+     FF7        0CF4        
+     FF7         CF4        
+     641        2FE0        
+                7F8         
+               7F80         
+              4FD1          
+             7EB1           
+           1AFB0            
+           CFC412      12   
+         09FFFFEEDEEEC8EF   
+         4F8555548895D8EF   
+         021         0 12   
+                            
+                            
+                            
+                            
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+             27CFFFFF8      
+       47EEEEEFFFFFFFE2     
+     1BFFFFFFFFFFFFFFF6     
+     6FFFFFFFFFFFFFFFD1     
+     5FFFFFFFFDD9FFFFD      
+      58D66664  0FFFFD      
+               5CFFFF8      
+              1CFFFF80      
+             1CFFFFF3       
+            1CFFFFE80       
+            BFFFFE2         
+           5FFFFF2          
+         09FFFFFA           
+         5FFFFF5            
+        5FFFFF90            
+       5FFFFFC0             
+       CFFFFE4              
+       5FFFFD1              
+        AFFF4               
+        17F70               
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+       27A9FAC660460        
+       5FFFFFFFFCEFA1       
+       5FFFFFFFFFFFF5       
+       01DAAFCFFFFFF5       
+         2003139FFFC1       
+               7FFFB        
+              1FFFD2        
+              8FFF8         
+             2DFFF4         
+             DFFF6          
+           06FFFC1          
+           6FFFF6           
+           BFFF60           
+           BFFE             
+           BFFE             
+          4FFFC             
+          5FFF4             
+          AFFB              
+          4EF3              
+           BF1              
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+         CFA5111            
+         FFFFFFE2           
+         8FFFFFFB           
+         08C9FFFF           
+              1AF3          
+               5F7          
+               5F7          
+               5F3          
+               9F1110       
+           13AAEFFFF9       
+          5DFFFFFFE81       
+         1FFFFFFF81         
+          9B7CFC0           
+             AFA            
+             FF5            
+             FC0            
+            3F5             
+             F5             
+             F5             
+             95             
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+         000000000          
+      00001122222110000     
+      001235678886431000    
+     00123579ABBBA853100    
+    000135789AAABB974200    
+    0012356777778AA85310    
+    00123455444468A96310    
+    00012233222358A96310    
+     0001111111359A95200    
+      000000112479A85200    
+      00000012358AA741000   
+      00001123579A963100    
+     000122456899975200000  
+    00123457899AA974210000  
+   001245789ABBAA864311000  
+   0024579AABBBAA976432100  
+   013579AAAABBBA997653210  
+   02469ABBBBBBA9988754210  
+  002479BCCCBA987777653210  
+   01369BCBA97654444432100  
+   01246788754322222211000  
+    001233321100000000000   
+     0000000        00      
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+            27BDFFFF3       
+           CFFFFFFFFFE      
+         5FFFE830006FF6     
+        5EFA70     1DF7     
+       5EFA1        9F7     
+      6FD30         9F7     
+      7F7          0BF1     
+      120          4FF      
+                  1EF6      
+                 29F8       
+                0BFC1       
+               09FF4        
+              09FC4         
+             09FE4          
+        1228ABFE2           
+      05FFFFFFFFB41  194    
+     5CFFFFFFEAFFFF94963    
+    0FFFFFFF6  6FFFFFA      
+    3FFFFF81    17BB3       
+     77B81                  
+                            
+                            
+                            
+                            
+2
+                            
+                            
+         4AEFB3             
+         D544BF7            
+         50  07F6           
+              07D1          
+               1DA          
+                4D0         
+                2F5         
+                 BA         
+                 DA         
+                0FA         
+                4F6         
+                4F2         
+          4461  AB0         
+        19FFFF73F5          
+        BD2 07FFC0          
+       1F6    5FD1          
+       3F2   4FDEC1         
+       2F3 35FD12EC3        
+       0CFEFFA1  28FB42     
+        18A500    06DF3     
+                            
+                            
+                            
+                            
+                            
+                            
+3
+                            
+                            
+                            
+           3C50             
+           AFFA2            
+           6FFFE60          
+            7EFFF81         
+             579FF9         
+               08FF7        
+                 BFC0       
+                 0FF1       
+                 6FF1       
+               08FFB0       
+         9FE987CFFD1        
+         9FFFFFFE71         
+         047DEFF9           
+             08FE1          
+              3FF2          
+       73     3FF2          
+      5F1   29DFF2          
+     0BF1117DFFF80          
+     1FFFFFFFB62            
+     0BFFF993               
+                            
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+       28FFFFFFFC80         
+      2EFFFFE8BDEFC3        
+      2FFFFB1   29FB0       
+       5BB4      08F9       
+                  0BF5      
+                   7FA      
+                   3FA      
+                   3FA      
+                   7FA      
+                   AF5      
+                  0CC0      
+                 07FB       
+                 0FF5       
+       03810    0BF90       
+      2BFFFC970 7FE2        
+     1BFD6CDFFBAFF7         
+     2FC0  05EFFFF          
+     2FE60 29EFFFF81        
+     1AFFDDEFFD35FF8        
+      03EFFFE60  5FF7       
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+            01138C80        
+          15AFFFFFFB        
+        29CFFFFFFFFE        
+        BFFFFD9449FF4       
+        4EFA21   7FF5       
+         110     7FF5       
+                 0FF5       
+                 7FF5       
+                 BFF4       
+                4FFE        
+                BFF6        
+               1EFF         
+              1DFFF         
+       02EFFFFFFFF4         
+       4FFFFFFFFFF91        
+      2EFFFFFFFFFFFF5       
+      9FFFFFFFE6ADFFF90     
+      9FFFFFFB2  17DFFA0    
+      9FFFFF50     13BF5    
+      1DFF91         285    
+                            
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+           0588C8810        
+        0293FFFCEDBE70      
+      03BFFFC6962 3EB90     
+      3FFFFA1      9EF2     
+      3FFD3        7DF4     
+      0731         1AC9     
+                    2E9     
+                   05F9     
+                   7FF4     
+                  1EFF2     
+                  4FFF2     
+          266661  9FF80     
+        5DFFFFFEE7FFC0      
+      1DFFF774203FFFB       
+      3FFC0    0BFFFB       
+     2BFE4    4CFDCEE2      
+    0EFF5    4EFA0 7E3      
+    1FFF2 259EF51   42      
+    07FFB9EC8520            
+     046E9B00               
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+            159FFFA0        
+          01CFFFFFFB4       
+          4FFF99CFFFA0      
+         1CFB3  15EFF2      
+        1CFB5     8FFB      
+        3FC1      8FFB      
+        1BB      1CFFB      
+         01      2FFF1      
+                 2FFF0      
+                 CFFC0      
+       000000   4EFF6       
+      0AFFDC6666AFFE4       
+    05CFFFFFFFFFFFF4        
+    1FFF9888FFFFFF7         
+    9FF80 028FFFFF7         
+    BFD  4AFFFFFFFB6        
+    BFFDDEFFFFECDFFC        
+    5FFFFFFFC64 7FFE3       
+    0BEFFFB40   7FFF6       
+      45550     27FD2       
+                            
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+           5CFFC5           
+          4DFFFFF7          
+          EEB37FFE1         
+          EC   7FF7         
+          EC    CF7         
+          71    CF7         
+                4F7         
+                5F7         
+                CF7         
+                CF7         
+               5FE          
+          1552 DF6          
+        27DFFDCFD1          
+        8FFDEFFFC           
+       1CF5 0BFFC           
+       1FF1 5FFFF5          
+       1FF67FF66FD2         
+       0AFFFF7 1BF7         
+        7FFC4   3FC10       
+         74     1CFF1       
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+        277DFFF774          
+        DFFFFFFFFF5         
+       6FFFFFFFFFFF2        
+       6FFFFFFFFFFF5        
+       1EEB9338BFFF8        
+        32    07FFF2        
+              6FFFE2        
+             1DFFF4         
+            06FFFB0         
+            2FFFF4          
+           1DFFF8           
+          1DFFFC0           
+         1CFFFB0            
+         5FFFF4    15671    
+        6DFFF6   47DFFFC    
+        EFFFFBBBBFFFFFC3    
+        EFFFFFFFFFFFD71     
+        EFFFFFFFFFB4        
+        EFFFFFFFF70         
+        9FFFFFA7            
+                            
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+            38FFE860        
+          14BFFFFFF8        
+         2EFFFFFFFFE2       
+         4FFFFFFFFFFB0      
+         4FFFC446FFFF2      
+         16B80  2FFFF2      
+                2FFFF2      
+                8FFFB0      
+               8FFFD2       
+              4FFFFB        
+             4FFFFD1        
+            4FFFFF4         
+           4FFFFFD1         
+          5FFFFFFFE80       
+        26EFFFFFFFFF4       
+      09EFFFFFFFFFFE3       
+      2FFFFFFFFFFFF8        
+      8FFFFFFFFF9970        
+      6FFFFFC811            
+      19FF950               
+                            
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+            0000            
+          00112221110000    
+         001235554321000    
+        00023578764210000   
+        00135899753210000   
+        00247998642100000   
+       001379A97421000000   
+       00259BA74211000000   
+       0037AB852111000000   
+      00159CA631111110000   
+      0027BC9521223321000   
+      0149CB7323566653100   
+      015ACA5456899975200   
+     0027BC95579AAAA96310   
+     0137BB8679A989AA74100  
+     0148BB87898668AA74100  
+     0148BB9888657ABA6310   
+    00147BCB99888ACB85200   
+    001369CCCBBBCDC962100   
+     00247ACDDDDDB8521000   
+     0002469BCCB8642000     
+      0001134443211000      
+         00000000000        
+             000            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+            3BFF3           
+            BFFEA           
+           4EF823           
+          1EFB0             
+          4FF3              
+          8FA               
+         1DF4               
+         7FF3               
+         9FC                
+         EF6                
+         EFB8BFFFD60        
+         EFFFFFDFFF7        
+         EFFB5404AFF5       
+         8F9     0DF7       
+         7FC      9F7       
+         6FD0    3EF7       
+          9F90  1CFF5       
+          1EF945EFE8        
+           3EFFFFB3         
+            3BFB70          
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+                29F3        
+               1DFF3        
+               7FF9         
+              3FFC0         
+              8FC1          
+             6FF1           
+            0BF6            
+            4FB             
+           B8D2             
+          2FF4              
+          DFB0   21         
+          FF4 18DFD4        
+         3FF3 89AFFD        
+         CFB    0DFF4       
+         CF6    1FFD        
+         CF8    1FF8        
+         CFB50 04FF3        
+         8DFFA49FF9         
+         04CFFFFFE1         
+           03CDC41          
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+               4A80         
+             5CFFF0         
+           05FFFFF0         
+           3FFFFC80         
+          0BFFE60           
+          9FFF1             
+         1DFE2              
+         CFF6               
+         EF9                
+         EF8                
+        4FE2    16CA0       
+        4FB    4FFFF6       
+         EB   1DFFFFE       
+         EB   6FFFADE       
+         EC0 0BFF40CE       
+         EF800FF7 5FA       
+         6FFA4FF96FF1       
+         0BFFFFFFFFB0       
+           8FFFFFEB1        
+           04EE981          
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+           2AF50            
+          0CFFF0            
+          4FC6C0            
+         2EFA               
+         4FE4               
+         AF9                
+        1EF3                
+        2FF3                
+        9FF3                
+        9FF3      4C91      
+        9FF3    05DFFD1     
+        9FF3    5FFFFFD1    
+        8FF3   1DFE86DF6    
+        2FF3   9FD2  CF9    
+        1EF5  AFF1   CF8    
+         8FE41EF7  06EB0    
+         2EFEEFF  3AFF8     
+          3EFFFFDAFFF90     
+           6EFFFFFFE70      
+            078FFF83        
+                            
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+               08E4         
+               BFF7         
+              6FA72         
+             3FF2           
+            1DF2            
+           07FA             
+           6FD0             
+          1CE2              
+          9FA               
+          CF6               
+         1FA    3630        
+         BF8  3DFFFB        
+         CF8 5EFD6AF4       
+         CF85FF91 8FA       
+         CF9EE7   8F6       
+         6FFF9    8F1       
+         0DFF7 011BF3       
+          7FFFAEFFF7        
+          06FFFFFFD0        
+            2AFFFD5         
+                            
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+               19FF8        
+             05FFCDF90      
+            1AFF2 1BF6      
+            9FC2   3E7      
+           4FF1             
+          1DF4              
+         1DF9               
+         8FE1               
+        1EF5                
+        6FC0                
+        8FB                 
+        7F8                 
+        9F5                 
+       1EF8    01110        
+       1EFB  27EFFFE4       
+        8FC09FFFBBFFC0      
+        5FFEFD6100CFF1      
+        09FFF7  03EF90      
+         1DFFFCCDFFA1       
+          17AFFFFC5         
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                DF1         
+              19F70         
+             0DFF1          
+             8FE30          
+            4DE3            
+           1DF5             
+           BF8              
+          4FF2              
+         1EF6    000        
+         8FC1   8CFD3       
+         DF3   CFFFF9       
+         DF3  8FFE3AF3      
+        2ED0 0CFB3 8F3      
+        4FC  0FF3  BD0      
+        8F7  0FB0 3F8       
+        8F5  0FF10BE2       
+        6FC0 0BF78F8        
+         DF70 4FFFF730      
+         9FFEBBEFFFE72      
+          6EFFFC3           
+                            
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+                29E3        
+               9EFFE        
+            09CFFFDC        
+           09FFFFF5         
+           5FFFB772         
+          3EFFF             
+          EFFF7             
+        08FFFD5             
+        7FFFD1   00         
+        AFFF7    8B84       
+        AFFA   BFFFFF1      
+        AFFA 0AFFFFFF9      
+        AFF5 8FFEABFFA      
+        AFFB3EFF40BFFA      
+        AFFFFFF33AFFFA      
+        6FFFFFFFFFFFC0      
+        06FFFFFFFFCA0       
+          3EFFFFFD1         
+           4CFFFFB          
+            18FB71          
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+                            
+                 4BF8       
+               16EFFF6      
+             06CFFFFF7      
+             CFFFF8FD       
+           2DFFFE5 94       
+          09FFFE5           
+         29FFFF             
+         4FFFB4             
+         BFFE3              
+         EFF4               
+        7FFF0  266BFFA0     
+       09FF8023EFFFFFF0     
+       0FFF74EFFFFFFFF0     
+       0FFFFFFFFFA4EFF0     
+       0FFFFFFFB459FFD0     
+       0FFFFFF805FFFD2      
+       0FFFFFE8BFFFF4       
+       1FFFFFFFFFFD70       
+       03CFFFFFFFD1         
+         1DFFFFC62          
+                            
+                            
+                            
+                            
+                            
+6
+                            
+                            
+           B81              
+          7FF3              
+          8FF3              
+         09FF3              
+         1FFA               
+         1FFA               
+         1FF7               
+         8FF1               
+        0BFF1     011       
+        3FF8     3AFF4      
+        CFF8    3EFFFF5     
+        CFF5  05EFEAAFF3    
+        CF8   3FFC4  FF3    
+        CF6  8EFA0 06FF3    
+        CD   CE7   1FFF3    
+        CF7 2DA   5CFF6     
+        CF9 5C0 28FFF60     
+        AFF87EB8DFFD7       
+        1BFFFFFFFEC1        
+         07FFFFF70          
+                            
+                            
+                            
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+         00000000000        
+      000123444432110000    
+    00012479ABBA974311000   
+   0001357ABCCCBB97421000   
+   0012357998889997421000   
+   001135665445688742000    
+   00012444333468863100     
+   00012344345688752100     
+    00013456789A9742100     
+    00013579ABBB9752100     
+    0001357AABBAA8742100    
+     00124678888898641000   
+     00013444444689852100   
+    000012222112369973100   
+   0000111111000259A74200   
+   0001122210000259A84200   
+   001223332111147AA74200   
+   00124555433457AB963100   
+   001346899889ABBA74200    
+   0012468ACCDDCCA74200     
+   00012358ABBB97531000     
+     0001123333321000       
+         00000000           
+                            
+                            
+2
+                            
+                            
+                            
+          77AFF95           
+         AFFFFFFD1          
+        AFFFD8BFF7          
+       3FFD20 0CF8          
+       4FD1   7FF4          
+        11    DFF4          
+             7FFC0          
+            4FFE3           
+            8FF9            
+           BFF90            
+          1EFE2             
+          CFF8              
+         4FFB0              
+        1CFF8               
+        8FFA0               
+        FFF1                
+        FFF211110 011299990 
+        FFFFFFFFA8AFFFFFFF7 
+        AFFFFFFFFFFFFFFA773 
+         7777AFFF9772       
+                            
+                            
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+            38DFFFCA2       
+        68CCFFFF94          
+        FFFC865             
+        AFC                 
+        1DE1                
+         7F3                
+         7F53330            
+        1DFFFFFA5           
+       1DFCA66CDFF30        
+       3FA     17CFD2       
+                  6CE3      
+                   1DE5     
+                    3CE7    
+                     1DF    
+                      9F    
+                     2ED    
+        75          1AF2    
+       5F9      166BED5     
+       5FFE99CAFFFFD81      
+        499EFDC98330        
+                            
+                            
+                            
+                            
+3
+                            
+                            
+                            
+                            
+      02993                 
+     08FFFFA1               
+     8FFFFFFE4              
+     6FF966EFF80            
+     BFA   3EFFA0           
+     FF2    3CFFA0          
+     BF2     3EFF5          
+     9F2 6B5559FF7          
+     5F42FFFFFFFFD50        
+     0502FFFFFFFFFFF50      
+         4ABFFFFFFFFFD2     
+           01122119FFFB3    
+         13        3DFFB    
+        4DF4        0DFF4   
+        5FFF3        3FFB   
+         7FF3        6FF9   
+         0BFD92    6DFFF9   
+          0DFFFFFFFFFFFC1   
+            5BEFFFFFFC71    
+              12847520      
+                            
+                            
+                            
+                            
+3
+                            
+                            
+                            
+                            
+                            
+                            
+       17CFFFFFA5           
+       BFFFFFFFFF2          
+       CFEB6CCEFF9          
+       593   2CFF6          
+            0DFFC           
+           7DFFF5           
+          3FFFF91           
+          0DFFFED75         
+            7DFFFFF4        
+             138DFFC        
+                1AFF6       
+                1CFF3       
+                8FF5        
+              18FFE1        
+             2DFFD          
+            AFFFA0          
+        0AAFFFE5            
+        8FFFFA1             
+        9FFC5               
+        5C7                 
+                            
+                            
+3
+                            
+                            
+                            
+                            
+                            
+        6FFFFD72            
+       BFFFFFFF8            
+      4FFDBB36FF5           
+      1AB1   4FF6           
+             4FF5           
+            09F8            
+           3FFF5            
+         06FFFE2            
+        1EFFFFFD5           
+        2FFFFFFFFC3         
+        1CCC544BFFE3        
+               3AFFE2       
+                0BFF3       
+                  AFD2      
+                  6FF4      
+                 2EFF4      
+              038EFFE3      
+           229CFFFFD5       
+        019FFFFFFE60        
+        17BFFFE77           
+                            
+                            
+                            
+2
+                            
+                            
+                            
+                            
+             3AF3           
+           2BFFFA           
+         04FFEEFB           
+        1BFF616FB           
+       1CF61  6F9           
+       261    6F2           
+              6E            
+             2D9            
+             8C1            
+            1E9             
+            9F4             
+           1C8              
+           AE1       07C2   
+          4F8      05DF90   
+         0CE2    18EFE3     
+         8F4   3BFFC7       
+        1EB 26BFEB60        
+        8F68EFFB3           
+       0DFFFFC4             
+       3FFB640              
+                            
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+            AC9533331       
+           1DFFFFFFFC5      
+           3F6 163663B2     
+           3F6       3      
+           3F6              
+           5F6              
+           AF6              
+           FFDCCC5          
+          7FFECCDF4         
+         2FF81  1FE2        
+         9FB     8F6        
+         391     3F6        
+         1       7F6        
+        5B       CF6        
+        CB      1FF2        
+       1D6     1CF8         
+        C7    2AFC1         
+        AD616AFFA1          
+        2EFFFFA5            
+         18C630             
+                            
+                            
+                            
+3
+                            
+                            
+                            
+                            
+                            
+                            
+    1338DDDDDDDA32          
+    CFFFFFFFFFFFFD1         
+    FFFFFFFFFFFFFFB         
+    5BBBBB61115FFFB         
+              5FFFA         
+            18FFFF1         
+        155EFFFFFF65        
+       5DFFFFFFFFFFF720     
+       7FFFFFFFFFFFFFF9     
+       7FFF97    49EFFF6    
+       12220       3EFF8    
+                    3FFF    
+         4          4FFB    
+        4F90       4FFF6    
+        4FFBBB74BBBEFFC1    
+        2DFFFFFFFFFFFA      
+         05ABCFFFFEAA1      
+            0135632         
+                            
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+              29DF4         
+             5EB41          
+        3999BE7             
+        DCAB62              
+       0F3                  
+       3F3                  
+       4F3                  
+       9F3  0102310         
+       6F305DFEFFFB4        
+       4F9EFA54115BF6       
+       1CD92       6F3      
+                   0DE      
+                    5F2     
+                    3F4     
+                    4F1     
+                    BF      
+        01        01EC      
+        0E40     1AEB0      
+         7F52035AEE80       
+         08EFEFFB62         
+                            
+                            
+                            
+                            
+3
+                            
+                            
+                            
+                            
+                            
+        4888F8FB84          
+       4FFBFFFFFFF4         
+       8FFFFFFFFFFF4        
+       488884 8BFFF8        
+               8FFF8        
+            488BFFF4        
+           8FFFFFFB         
+          4FFFFFFB4         
+         8FFFFFFF           
+         FFFFFFFFB4         
+         BFFFFFFFFB         
+          88888FFFF8        
+               4FFFB        
+                FFFF        
+           4    FFFF        
+          8FB 4FFFF8        
+         8BFFBFFFFF         
+          FFFFFFFF8         
+          FFFFFFF4          
+           BFFF84           
+                            
+                            
+                            
+########### Cluster ############
+-1
+                            
+                            
+                            
+               00000000     
+             000000000000   
+            00001122221100  
+        0000112344555432100 
+       00001346677788643200 
+      000014689887899753210 
+     00001479A9766898743100 
+      00137AA86445887531000 
+      00259A85324688631000  
+     00147A96323689742000   
+     0025898644689853100    
+     01368987779AA7420000   
+     0135788889BB9631000    
+    0013456678ABA7420000    
+    0012344458AB85200000    
+   00012333359BA631000      
+   0012333347AB841000       
+   0002344579B952000        
+   000134568A9731000        
+    00124579974100          
+    00023577742000          
+    0001345542000           
+     00122221000            
+     0000000000             
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+             238CC52        
+           29EFFFFFFD90     
+         29FFFEA8FCFEE6     
+        9EFFB80  B2CFDF1    
+      07FFE80    D24FFF1    
+      4FFE3    027EFFFA0    
+      4FFD68BBADFEFFFE2     
+      0AFFFFFFFFFFFFA1      
+        18CB99CFFFF91       
+              AFFF60        
+             7FFF5          
+            6FFFD0          
+           3FFFF3           
+           8FFF4            
+          0FFF9             
+         0EFFD0             
+         4FFF4              
+         DFF8               
+         EFE1               
+         7F6                
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+               18C2         
+             29FFFE342      
+           02EFFFFFFFC0     
+          18FFFEFFFFFE0     
+          9FFF64CFFFE3      
+        0AFFC37DFFFFB       
+        7FFD5FFFFFFD1       
+       0EFFFFFE8CFF7        
+       0CFFFE812FFC0        
+        1552  0AFF2         
+              5FF9          
+             1DFE0          
+             CFF6           
+            2FFB0           
+           1DFE1            
+           4FF7             
+          3EFF3             
+         0BFFE2             
+         7FFE3              
+         6E71               
+                            
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+       ED5      377EFE2     
+       3EFFFFFFFFFFFFF5     
+        4BFFFFFFFFFFFF5     
+         022352222DFFC3     
+                 4FFD1      
+                 7FFC       
+                5FFFB       
+               0FFF71       
+              0CFFF3        
+             0CFFF6         
+            0CFFF9          
+           17FFFF6          
+           5FFFF20          
+          1CFFD60           
+         1BFFF5             
+        16FFF8              
+        AFFFE2              
+       0DFFF8               
+       5FFFD2               
+        DDD4                
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+                       043  
+                  037AFFC6  
+             31 17CFFE860   
+           1BFEDEFF941      
+          1DFFFFD62         
+         1CFFFA4            
+         BFFC1              
+        3FFA0               
+        DFA0                
+       2FF4268DB51          
+       7FFFFFEDFFE6         
+       CFFC931 18FE6        
+       1950      8FA0       
+                 6FF0       
+                2DFB0       
+               4EFE2        
+            06BFFE4         
+      111679DFFF81          
+      FFFFFFFB61            
+       23421                
+                            
+                            
+                            
+5
+                            
+                            
+                            
+                            
+                            
+                            
+                      07A   
+                    56CE5   
+                12ADFE43    
+             348FFFA302     
+          6DDFFFFC41        
+          AEEE95            
+         25711              
+        2753                
+        5C3                 
+        0EF2                
+        2BFDC2              
+         233B8              
+            9C0             
+            FE0             
+            F50             
+            D0              
+          1AF3              
+         07FE2              
+         1FC2               
+         080                
+                            
+                            
+8
+                            
+                            
+                            
+                            
+                            
+             222            
+           06FFFDCCC940     
+          0BFFFFFFFFFFD1    
+         3CFFC7735549DFA    
+         8FFC1       9FD    
+         8FF1       4FFD    
+         6FF6      2EFFA    
+          9FE2   29FFFB1    
+          1CFC024EFFE80     
+           1DFDFFFE81       
+           6EFFFE40         
+        4AFFFFFF7           
+     18EFFFB74DFF1          
+    AEFFFA2005FFF3          
+    8FFFD579CFFFE0          
+     8FFFFFFFFFE2           
+      178CCCCC70            
+                            
+                            
+                            
+                            
+                            
+                            
+7
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+    4CFF9EDA888568574400    
+    7FFFFFFFFFFFFFFFFFF0    
+     36666668EEEFEFFFFF3    
+                213EFFA0    
+                  6FF8      
+                 4FFD3      
+         252220 4EFE1       
+        1EFFFFCAEFFA31      
+        1CFFFFFFFFFFFDB1    
+         0489EFFFFFFFFF6    
+            2EFFC8333330    
+           0AFF90           
+           9FF60            
+          4FF90             
+         2FFC0              
+         5FE3               
+        5FF5                
+       4FFE2                
+      1FFE3                 
+      1FF9                  
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+            29DFEFF8        
+           2CFFFFFFD1       
+          1DFFFFEFFF7       
+          6FFF9219FFA       
+          AFFC2 0CFFC       
+          3FFF58BFFF7       
+           BFFFFFFFF3       
+           03DFFFFFC0       
+             5EFFFE5        
+             6FFFF3         
+            5FFFFA0         
+           6EFFA7           
+          5FFFE1            
+         5EFFF8             
+        2EFFFC1             
+        CFFFC1              
+       5FFFF5               
+      2FFFF8                
+       DFFB1                
+       BFF1                 
+                            
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+               4CF70        
+              4EFFF0        
+             1FFCAF0        
+            3CFB03F7        
+           4DF60 3F9        
+          4FF8 07EFA        
+         1EF939EFFF3        
+         3FFDFFFFFD0        
+          DFFFFFFB0         
+          2552FF8           
+             AF80           
+            5FF3            
+            9FD1            
+           2FF4             
+           9FE              
+          0DF6              
+          0FF1              
+          7FF373            
+          2FFFE2            
+          0AFC4             
+                            
+                            
+9
+                            
+                            
+                            
+                            
+                            
+                            
+              07FEF3 170    
+             09B50911DE1    
+            0A93  30CE2     
+            5C1    4C4      
+            78    2FE2      
+           8C0    9F5       
+          5E0   19F8        
+         0E6  04CE6         
+         3E1139FF4          
+         2FCFDCFC           
+          6C718F8           
+             6FC0           
+            1FE1            
+           0DD1             
+           7F               
+          4F7               
+         5EA0               
+         DD0                
+         D7                 
+        150                 
+                            
+                            

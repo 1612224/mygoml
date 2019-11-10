@@ -6,7 +6,7 @@ import (
 	"math"
 	"math/rand"
 	"mygoml"
-	"mygoml/models"
+	"mygoml/knn"
 	"os"
 	"time"
 
@@ -33,8 +33,8 @@ func (dp IrisDataPoint) Features() []float64 {
 	return []float64{dp.Sepal.Length, dp.Sepal.Width, dp.Pedal.Length, dp.Pedal.Width}
 }
 
-func (dp IrisDataPoint) Target() float64 {
-	return float64(dp.Type)
+func (dp IrisDataPoint) Target() []float64 {
+	return []float64{float64(dp.Type)}
 }
 
 type IrisDataSet struct {
@@ -92,7 +92,7 @@ func (ds IrisDataSet) DataPoints() []mygoml.SupervisedDataPoint {
 	return out
 }
 
-func MyWeigher(knn *models.KNNModel, current, neighbor []float64) float64 {
+func MyWeigher(knn *knn.Model, current, neighbor []float64) float64 {
 	sigma := 0.5
 	diff := make([]float64, len(current))
 	floats.SubTo(diff, current, neighbor)
@@ -107,7 +107,7 @@ func main() {
 	ds.ReadFromFile("datasets/iris.data")
 
 	// define model
-	model := &models.KNNModel{K: 10, Norm: 2}
+	model := &knn.Model{K: 10, Norm: 2}
 
 	// train model
 	model.Train(ds)
@@ -119,11 +119,11 @@ func main() {
 	for _, d := range ds.TestSet {
 		fs := d.Features()
 		p, _ := model.Predict(fs)
-		t := int(p)
+		t := int(p[0])
 		// fmt.Printf("Predicted: %s, Ground Truth: %s\n", ds.Labels[t], ds.Labels[d.Type])
 		fmt.Printf("Predicted: %d, Ground Truth: %d\n", t, d.Type)
-		predictions = append(predictions, p)
-		targets = append(targets, d.Target())
+		predictions = append(predictions, p...)
+		targets = append(targets, d.Target()...)
 	}
 	fmt.Printf("[Major Voting] Accuracy: %.2f%%\n", mygoml.Accuracy(predictions, targets))
 
@@ -131,15 +131,15 @@ func main() {
 	fmt.Println("\n######## Distance Weight ############")
 	predictions = nil
 	targets = nil
-	model.WeightCalculator = models.KNN_DistanceWeight
+	model.WeightCalculator = knn.DistanceWeight
 	for _, d := range ds.TestSet {
 		fs := d.Features()
 		p, _ := model.Predict(fs)
-		t := int(p)
+		t := int(p[0])
 		// fmt.Printf("Predicted: %s, Ground Truth: %s\n", ds.Labels[t], ds.Labels[d.Type])
 		fmt.Printf("Predicted: %d, Ground Truth: %d\n", t, d.Type)
-		predictions = append(predictions, p)
-		targets = append(targets, d.Target())
+		predictions = append(predictions, p...)
+		targets = append(targets, d.Target()...)
 	}
 	fmt.Printf("[Distance Weight] Accuracy: %.2f%%\n", mygoml.Accuracy(predictions, targets))
 
@@ -151,11 +151,11 @@ func main() {
 	for _, d := range ds.TestSet {
 		fs := d.Features()
 		p, _ := model.Predict(fs)
-		t := int(p)
+		t := int(p[0])
 		// fmt.Printf("Predicted: %s, Ground Truth: %s\n", ds.Labels[t], ds.Labels[d.Type])
 		fmt.Printf("Predicted: %d, Ground Truth: %d\n", t, d.Type)
-		predictions = append(predictions, p)
-		targets = append(targets, d.Target())
+		predictions = append(predictions, p...)
+		targets = append(targets, d.Target()...)
 	}
 	fmt.Printf("[Custom Weight] Accuracy: %.2f%%\n", mygoml.Accuracy(predictions, targets))
 }

@@ -1,4 +1,4 @@
-package models
+package knn
 
 import (
 	"fmt"
@@ -8,26 +8,24 @@ import (
 	"gonum.org/v1/gonum/floats"
 )
 
-type KNNWeigher func(knn *KNNModel, current, neighbor []float64) float64
-
-var KNN_MajorVoting = KNNWeigher(func(knn *KNNModel, current, neighbor []float64) float64 {
+var MajorVoting = func(knn *Model, current, neighbor []float64) float64 {
 	return 1
-})
+}
 
-var KNN_DistanceWeight = KNNWeigher(func(knn *KNNModel, current, neighbor []float64) float64 {
+var DistanceWeight = func(knn *Model, current, neighbor []float64) float64 {
 	diff := make([]float64, len(current))
 	floats.SubTo(diff, current, neighbor)
 	return floats.Norm(diff, float64(knn.Norm))
-})
+}
 
-type KNNModel struct {
+type Model struct {
 	memory           []mygoml.SupervisedDataPoint
 	K                int
 	Norm             float64
-	WeightCalculator KNNWeigher
+	WeightCalculator func(knn *Model, current, neighbor []float64) float64
 }
 
-func (knn *KNNModel) Train(dataset mygoml.SupervisedDataSet) error {
+func (knn *Model) Train(dataset mygoml.SupervisedDataSet) error {
 	dps := dataset.DataPoints()
 	if len(dps) == 0 {
 		return mygoml.ErrDatasetEmpty
@@ -39,11 +37,11 @@ func (knn *KNNModel) Train(dataset mygoml.SupervisedDataSet) error {
 	return nil
 }
 
-func (knn *KNNModel) Predict(features []float64) (float64, error) {
+func (knn *Model) Predict(features []float64) ([]float64, error) {
 	featuresCount := len(knn.memory[0].Features())
 	if featuresCount != len(features) {
 		msg := fmt.Sprintf("model expects %d features but got %d features", featuresCount, len(features))
-		return 0, mygoml.ErrIncompatibleDataAndModel(msg)
+		return nil, mygoml.ErrIncompatibleDataAndModel(msg)
 	}
 
 	distanceCalculator := func(a, b []float64) float64 {
@@ -59,18 +57,25 @@ func (knn *KNNModel) Predict(features []float64) (float64, error) {
 
 	neighbors := knn.memory[:knn.K]
 	chosen := neighbors[0].Target()
-	labels := make(map[float64]float64)
-	var max float64
+	labels := make([]map[float64]float64, len(chosen))
+	for i := range labels {
+		labels[i] = make(map[float64]float64)
+	}
+	max := make([]float64, len(chosen))
 	weigher := knn.WeightCalculator
 	if weigher == nil {
-		weigher = KNN_MajorVoting
+		weigher = MajorVoting
 	}
 	for _, n := range neighbors {
-		key := n.Target()
-		labels[key] = labels[key] + weigher(knn, features, n.Features())
-		if labels[key] > max {
-			max = labels[key]
-			chosen = key
+		neighborTarget := n.Target()
+		weight := weigher(knn, features, n.Features())
+		for i, m := range labels {
+			key := neighborTarget[i]
+			m[key] = m[key] + weight
+			if m[key] > max[i] {
+				max[i] = m[key]
+				chosen[i] = key
+			}
 		}
 	}
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 	"mygoml"
+	"mygoml/kmeans"
 	"mygoml/mnist"
-	"mygoml/models"
 	"os"
 )
 
@@ -47,14 +47,14 @@ func main() {
 		ds = append(ds, MNISTImage(v))
 	}
 
-	model := models.KMeansModel{ClusterCount: 10}
+	model := kmeans.Model{ClusterCount: 10}
 	clusters := model.Clustering(ds)
 
 	file, _ := os.Create("cmd/kmeans_app/mnist/mnist_clustering.txt")
 	defer file.Close()
 
 	for _, c := range clusters {
-		kmc, _ := c.(*models.KMeansCluster)
+		kmc, _ := c.(*kmeans.Cluster)
 		center := kmc.Center()
 		var centerImg MNISTImage
 		centerImg.Digit = -1

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"mygoml"
-	"mygoml/models"
+	"mygoml/lingres"
 	"os"
 )
 
@@ -17,8 +17,8 @@ func (hw HeightWeight) Features() []float64 {
 	return []float64{hw.Height}
 }
 
-func (hw HeightWeight) Target() float64 {
-	return hw.Weight
+func (hw HeightWeight) Target() []float64 {
+	return []float64{hw.Weight}
 }
 
 type HeightWeightSet []HeightWeight
@@ -67,7 +67,7 @@ func (hws *HeightWeightSet) ReadFromFile(filepath string) error {
 func main() {
 	// define variables
 	var hws HeightWeightSet
-	var model models.LinearRegressionModel
+	var model lingres.Model
 
 	// read training data from file
 	err := hws.ReadFromFile("datasets/height_weight.txt")
@@ -84,6 +84,6 @@ func main() {
 	// predict
 	predict_155, _ := model.Predict([]float64{155})
 	predict_160, _ := model.Predict([]float64{160})
-	fmt.Printf("Height: 155, Predicted Weight: %f\n", predict_155)
-	fmt.Printf("Height: 160, Predicted Weight: %f\n", predict_160)
+	fmt.Printf("Height: 155, Predicted Weight: %v\n", predict_155)
+	fmt.Printf("Height: 160, Predicted Weight: %v\n", predict_160)
 }

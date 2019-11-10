@@ -3,7 +3,7 @@ package main
 import (
 	"image/color"
 	"mygoml"
-	"mygoml/models"
+	"mygoml/kmeans"
 	"time"
 
 	"gonum.org/v1/plot"
@@ -122,12 +122,12 @@ func main() {
 	p.Add(C1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(C2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
 	p.Add(C3.Plotter(draw.SquareGlyph{}, color.RGBA{B: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "misc/kmeans_clustering_data.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/kmeans_clustering/kmeans_clustering_data.png"); err != nil {
 		panic(err)
 	}
 
 	// define model
-	model := models.KMeansModel{ClusterCount: 3}
+	model := kmeans.Model{ClusterCount: 3}
 
 	// start clustering
 	clusters := model.Clustering(rps)
@@ -147,7 +147,7 @@ func main() {
 	p.Add(C1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(C2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
 	p.Add(C3.Plotter(draw.SquareGlyph{}, color.RGBA{B: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "misc/kmeans_clustering_final.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/kmeans_clustering/kmeans_clustering_final.png"); err != nil {
 		panic(err)
 	}
 }

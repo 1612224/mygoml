@@ -7,7 +7,7 @@ import (
 	"image/jpeg"
 	_ "image/jpeg"
 	"mygoml"
-	"mygoml/models"
+	"mygoml/kmeans"
 	"os"
 )
 
@@ -53,13 +53,13 @@ func main() {
 	ds := Image{img}
 
 	for _, count := range []int{3, 5, 10, 15, 20} {
-		model := models.KMeansModel{ClusterCount: count}
+		model := kmeans.Model{ClusterCount: count}
 		clusters := model.Clustering(ds)
 
 		rect := img.Bounds()
 		newImg := image.NewRGBA(rect)
 		for _, c := range clusters {
-			rc, _ := c.(*models.KMeansCluster)
+			rc, _ := c.(*kmeans.Cluster)
 			center := rc.Center()
 			centerColor := Uint32Color{uint32(center[0]), uint32(center[1]), uint32(center[2])}
 			for _, m := range c.Members() {

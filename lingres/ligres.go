@@ -1,4 +1,4 @@
-package models
+package lingres
 
 import (
 	"fmt"
@@ -7,33 +7,34 @@ import (
 	"gonum.org/v1/gonum/mat"
 )
 
-type LinearRegressionModel struct {
+type Model struct {
 	weights []float64
 }
 
-func (m *LinearRegressionModel) Train(s mygoml.SupervisedDataSet) error {
+func (m *Model) Train(s mygoml.SupervisedDataSet) error {
 	dps := s.DataPoints()
 	if len(dps) == 0 {
 		return mygoml.ErrDatasetEmpty
 	}
 	featuresCount := len(dps[0].Features())
+	targetCount := len(dps[0].Target())
 
 	// build feature matrix (MxN) & target vector (Mx1 matrix)
 	var featureMatrixData []float64
-	var targetVectorData []float64
+	var targetMatrixData []float64
 	for _, dp := range dps {
 		featureMatrixData = append(featureMatrixData, dp.Features()...)
 		featureMatrixData = append(featureMatrixData, 1)
-		targetVectorData = append(targetVectorData, dp.Target())
+		targetMatrixData = append(targetMatrixData, dp.Target()...)
 	}
 	featureMatrix := mat.NewDense(len(dps), featuresCount+1, featureMatrixData)
-	targetVector := mat.NewVecDense(len(dps), targetVectorData)
+	targetMatrix := mat.NewDense(len(dps), targetCount, targetMatrixData)
 	var lhs mat.Dense
-	var rhs mat.VecDense
+	var rhs mat.Dense
 	lhs.Mul(featureMatrix.T(), featureMatrix)
-	rhs.MulVec(featureMatrix.T(), targetVector)
-	var weightVector mat.VecDense
-	err := weightVector.SolveVec(&lhs, &rhs)
+	rhs.Mul(featureMatrix.T(), targetMatrix)
+	var weightVector mat.Dense
+	err := weightVector.Solve(&lhs, &rhs)
 	if err != nil {
 		switch err.(type) {
 		case mat.Condition:
@@ -50,15 +51,15 @@ func (m *LinearRegressionModel) Train(s mygoml.SupervisedDataSet) error {
 	return nil
 }
 
-func (m LinearRegressionModel) Predict(features []float64) (float64, error) {
+func (m Model) Predict(features []float64) ([]float64, error) {
 	if len(features) != len(m.weights)-1 {
 		msg := fmt.Sprintf("model expects %d features but got %d features", len(m.weights)-1, len(features))
-		return 0, mygoml.ErrIncompatibleDataAndModel(msg)
+		return nil, mygoml.ErrIncompatibleDataAndModel(msg)
 	}
 
 	featureVector := mat.NewVecDense(len(features)+1, append(features, 1)).T()
 	weightVector := mat.NewVecDense(len(m.weights), m.weights)
-	var result mat.VecDense
-	result.MulVec(featureVector, weightVector)
-	return result.At(0, 0), nil
+	var result mat.Dense
+	result.Mul(featureVector, weightVector)
+	return result.RawRowView(0), nil
 }
