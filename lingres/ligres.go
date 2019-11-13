@@ -8,7 +8,7 @@ import (
 )
 
 type Model struct {
-	weights []float64
+	weights mat.Dense
 }
 
 func (m *Model) Train(s mygoml.SupervisedDataSet) error {
@@ -33,8 +33,7 @@ func (m *Model) Train(s mygoml.SupervisedDataSet) error {
 	var rhs mat.Dense
 	lhs.Mul(featureMatrix.T(), featureMatrix)
 	rhs.Mul(featureMatrix.T(), targetMatrix)
-	var weightVector mat.Dense
-	err := weightVector.Solve(&lhs, &rhs)
+	err := m.weights.Solve(&lhs, &rhs)
 	if err != nil {
 		switch err.(type) {
 		case mat.Condition:
@@ -43,23 +42,17 @@ func (m *Model) Train(s mygoml.SupervisedDataSet) error {
 			return mygoml.ErrUnknown
 		}
 	}
-
-	m.weights = nil
-	for i := 0; i < featuresCount+1; i++ {
-		m.weights = append(m.weights, weightVector.At(i, 0))
-	}
 	return nil
 }
 
-func (m Model) Predict(features []float64) ([]float64, error) {
-	if len(features) != len(m.weights)-1 {
-		msg := fmt.Sprintf("model expects %d features but got %d features", len(m.weights)-1, len(features))
+func (m *Model) Predict(features []float64) ([]float64, error) {
+	if r, _ := m.weights.Dims(); len(features) != r-1 {
+		msg := fmt.Sprintf("model expects %d features but got %d features", r-1, len(features))
 		return nil, mygoml.ErrIncompatibleDataAndModel(msg)
 	}
 
 	featureVector := mat.NewVecDense(len(features)+1, append(features, 1)).T()
-	weightVector := mat.NewVecDense(len(m.weights), m.weights)
 	var result mat.Dense
-	result.Mul(featureVector, weightVector)
+	result.Mul(featureVector, &m.weights)
 	return result.RawRowView(0), nil
 }

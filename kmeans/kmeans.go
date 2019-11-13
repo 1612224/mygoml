@@ -27,7 +27,7 @@ func (kc *Cluster) Reset() {
 	kc.members = nil
 }
 
-func (kc Cluster) Members() []mygoml.UnsupervisedDataPoint {
+func (kc *Cluster) Members() []mygoml.UnsupervisedDataPoint {
 	var out []mygoml.UnsupervisedDataPoint
 	for _, v := range kc.members {
 		out = append(out, v)
