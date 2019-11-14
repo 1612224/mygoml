@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"mygoml"
-	"mygoml/lingres"
+	"mygoml/linregres"
 	"os"
 )
 
@@ -67,7 +67,7 @@ func (hws *HeightWeightSet) ReadFromFile(filepath string) error {
 func main() {
 	// define variables
 	var hws HeightWeightSet
-	var model lingres.Model
+	var model linregres.Model
 
 	// read training data from file
 	err := hws.ReadFromFile("datasets/height_weight.txt")
