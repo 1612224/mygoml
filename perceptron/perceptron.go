@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"mygoml"
 	"mygoml/graddesc"
+	"mygoml/helpers"
 
 	"gonum.org/v1/gonum/floats"
 
@@ -13,23 +14,6 @@ import (
 
 type Perceptron struct {
 	weights mat.Matrix
-}
-
-func convert(dataset mygoml.SupervisedDataSet) (mat.Matrix, mat.Matrix) {
-	var xdata []float64
-	var ydata []float64
-	dps := dataset.DataPoints()
-	featuresCount := len(dps[0].Features())
-	targetCount := len(dps[0].Target())
-	for _, dp := range dps {
-		xdata = append(xdata, dp.Features()...)
-		xdata = append(xdata, 1.0)
-		ydata = append(ydata, dp.Target()...)
-	}
-
-	xMatrix := mat.NewDense(len(dps), featuresCount+1, xdata)
-	yMatrix := mat.NewDense(len(dps), targetCount, ydata)
-	return xMatrix.T(), yMatrix.T()
 }
 
 func toFloatSlice(m mat.Matrix) []float64 {
@@ -51,22 +35,9 @@ func copyFloats(x []float64) []float64 {
 }
 
 func (p *Perceptron) Train(dataset mygoml.SupervisedDataSet) error {
-	X, Y := convert(dataset)
+	X, Y := helpers.ConvertSupervisedDataset(dataset, true)
 	wr, xcount := X.Dims()
 	wc, _ := Y.Dims()
-	loss := func(xi, yi []float64) func([]float64) []float64 {
-		return func(w []float64) []float64 {
-			wMatrix := mat.NewDense(wr, wc, copyFloats(w))
-			xVec := mat.NewVecDense(len(xi), copyFloats(xi))
-			yVec := mat.NewVecDense(len(yi), copyFloats(yi))
-			var temp mat.VecDense
-			temp.MulVec(wMatrix.T(), xVec)
-			yVec.MulElemVec(yVec, &temp)
-			yVec.ScaleVec(-1, yVec)
-			result := toFloatSlice(yVec)
-			return result
-		}
-	}
 	gradient := func(xi, yi, trueyi []float64) func([]float64) []float64 {
 		return func(w []float64) []float64 {
 			sameSign := floats.EqualFunc(yi, trueyi, func(a, b float64) bool {
@@ -103,7 +74,6 @@ func (p *Perceptron) Train(dataset mygoml.SupervisedDataSet) error {
 
 			return graddesc.Function{
 				InputSize: wr * wc,
-				Mapper:    loss(xi, yi),
 				Gradient:  gradient(xi, yi, trueyi),
 			}
 		},
@@ -111,7 +81,6 @@ func (p *Perceptron) Train(dataset mygoml.SupervisedDataSet) error {
 			W = mat.NewDense(wr, wc, w)
 			classifiedY.Mul(W.T(), X)
 		},
-		EpochEndFunc: func(w []float64) {},
 	}
 
 	op := graddesc.Optimizer{

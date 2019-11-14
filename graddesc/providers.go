@@ -41,11 +41,15 @@ func (p *MiniBatchProvider) Funcs() []funcCreator {
 }
 
 func (p *MiniBatchProvider) OnEpochEnd(x []float64) {
-	p.EpochEndFunc(x)
+	if p.EpochEndFunc != nil {
+		p.EpochEndFunc(x)
+	}
 }
 
 func (p *MiniBatchProvider) AfterUpdate(x []float64) {
-	p.AfterUpdateFunc(x)
+	if p.AfterUpdateFunc != nil {
+		p.AfterUpdateFunc(x)
+	}
 }
 
 type StochasticProvider struct {
@@ -66,9 +70,13 @@ func (p *StochasticProvider) Funcs() []funcCreator {
 }
 
 func (p *StochasticProvider) OnEpochEnd(x []float64) {
-	p.EpochEndFunc(x)
+	if p.EpochEndFunc != nil {
+		p.EpochEndFunc(x)
+	}
 }
 
 func (p *StochasticProvider) AfterUpdate(x []float64) {
-	p.AfterUpdateFunc(x)
+	if p.AfterUpdateFunc != nil {
+		p.AfterUpdateFunc(x)
+	}
 }
