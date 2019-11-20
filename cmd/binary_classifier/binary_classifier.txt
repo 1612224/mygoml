@@ -1,0 +1,180 @@
+Predicted:  0
+4
+                            
+                            
+                            
+                            
+              5DD1          
+             5DFB1          
+            3DE4            
+           1FF6             
+           9F8       172    
+          2EF4       3F3    
+          9F4       5FE1    
+         3EF0      1DFC1    
+         BF8       CFF3     
+        0CE1     17FF6      
+        3FA      8FF8       
+        3FC0  16BFF91       
+        3FFE7BEFFFC0        
+        08FFFFFFF60         
+          2669FF6           
+            6FF6            
+           1FFB             
+           9FC1             
+           EF7              
+           AC3              
+                            
+                            
+                            
+                            
+Predicted:  4
+0
+                            
+                            
+                            
+                            
+      50                    
+     5EBB4     53           
+    3FFFA0     7F2          
+    3FFF9      49D3         
+    BFFE3        ED91       
+    FFFD         4FFC0      
+    FFFE3        1CFFC2     
+    9FFF9         2CFF7     
+    3FFF9          2EF7     
+     5EFB1          DFF6    
+      BFF6          DFFF    
+      BFFCA         4FFF    
+      03EFE21       1FFF    
+        6FFFA1      6FFF    
+        26EFFB95   6EFFF    
+          2EEFFEDDDEFFF5    
+             8CFFFFFFE5     
+              17777775      
+                            
+                            
+                            
+                            
+                            
+                            
+Predicted:  0
+4
+                            
+                            
+                            
+                0B4         
+               06F8         
+               1FF3         
+              1BF6          
+              5FE1          
+             0CF6           
+             6FF            
+            4DF8            
+           2BFC    260      
+           9FE2    9F8      
+          1FF7    6FFB00    
+          CF9 1306DFFFC90   
+        04FFBCEFEFFFFFFF3   
+        3FFFFFFCFFFF9B62    
+       0DFFE71108FF8        
+       6FFA1   0FF7         
+      6FFA0    7FE0         
+     3CFE1     AF4          
+     9FF4      200          
+     7F4                    
+                            
+                            
+                            
+                            
+                            
+Predicted:  4
+0
+                            
+                            
+                            
+                            
+                            
+                            
+             01             
+         6BECFD920          
+     3325FFFDBEFFD20        
+     64EFD21   24DF6        
+     26EE3       0BF4       
+   007D94         0BB0      
+   CDD861 1AC7     2F8      
+   820   19EF7     04D4     
+         0EFE2      3F7     
+          DFA1      3F7     
+          7FE9     08FB     
+          2FFD50   1DD9     
+           6EFFB312DFF4     
+            4EFFFFFEF5      
+             2BBFED580      
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+Predicted:  0
+4
+                            
+                            
+                            
+                1DFC2       
+               2DFFF9       
+              4CFFFFA       
+             7FFFFFF8       
+         10 1FFFFFFF4       
+        6EA1CFFE4FFE1       
+       0BFFEFFF42FFD        
+       7FFFFFF7 6FFC        
+       CFFFFFE1 3FF7        
+      0DFFFFF4   FF7        
+      5FFFFF9    FF7        
+      DFFFFF1    FF7        
+      FFFFF4     FF7        
+      FFFFD     5FF7  070   
+      FFFFC42   6FF7 4AFD4  
+      FFFFFFFEE9EFFFEFFFF9  
+      FFFFFFFFFFFFFFFFFFD4  
+      6DFDB88BEFFFFE88830   
+               2FFC0        
+               2FFA         
+                            
+                            
+                            
+                            
+                            
+Predicted:  0
+4
+                            
+                            
+                            
+                            
+                            
+                3C6 3C      
+               5EFA1ED      
+              3EFF65FA      
+              AFFA AF3      
+              AFF34FC       
+             1FF60AF8       
+            0BFA14FE1       
+            4FC1 7FB        
+           4FF3 4FF4        
+         18FF6  9FB         
+        3FFFD38DFFDAF4      
+        8FFA23DFFFFFC0      
+       4FFD7CFFFFB721       
+      2FFFFFFFFF6           
+      CFFFFA7FF6            
+      CFC700DF90            
+      010  AFB2             
+          6FD2              
+         4FE1               
+         EE1                
+                            
+                            
+                            

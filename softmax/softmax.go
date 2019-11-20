@@ -1,9 +1,8 @@
-package logregres
+package softmax
 
 import (
 	"fmt"
 	"math"
-	"math/rand"
 	"mygoml"
 	"mygoml/graddesc"
 	"mygoml/helpers"
@@ -27,16 +26,18 @@ func copyFloats(x []float64) []float64 {
 	return n
 }
 
-func wtx(w mat.Matrix, xi []float64) []float64 {
-	xivec := mat.NewVecDense(len(xi), copyFloats(xi))
-	var yivec mat.VecDense
-	yivec.MulVec(w.T(), xivec)
-	yi := mat.Col(nil, 0, &yivec)
-	return yi
-}
-
-func sigmod(x float64) float64 {
-	return 1 / (1 + math.Exp(-x))
+func softmax(z []float64) []float64 {
+	max := floats.Max(z)
+	temp := make([]float64, len(z))
+	for i := range z {
+		temp[i] = math.Exp(z[i] - max)
+	}
+	sum := floats.Sum(temp)
+	out := make([]float64, len(z))
+	for i := range z {
+		out[i] = temp[i] / sum
+	}
+	return out
 }
 
 func toFloatSlice(m mat.Matrix) []float64 {
@@ -58,26 +59,31 @@ func (m *Model) Train(dataset mygoml.SupervisedDataSet) error {
 
 	var wData []float64
 	for i := 0; i < wr*wc; i++ {
-		wData = append(wData, rand.Float64()+0.01)
+		wData = append(wData, float64(i+1))
 	}
 	wMatrix := mat.NewDense(wr, wc, wData)
-	// s = Wt * X
-	// z = sigmod(s)
 
 	gradient := func(xi, yi []float64, w mat.Matrix) []float64 {
 		xivec := mat.NewVecDense(len(xi), copyFloats(xi))
+
+		// zi = W^t * xi
 		var zivec mat.VecDense
 		zivec.MulVec(w.T(), xivec)
 		zival := mat.Col(nil, 0, &zivec)
-		wMatrix := mat.NewDense(wr, wc, nil)
-		for i, zv := range zival {
-			zi := 1 / (1 + math.Exp(-zv))
-			zi = zi - yi[i]
-			temp := make([]float64, len(xi))
-			floats.ScaleTo(temp, zi, xi)
-			wMatrix.SetCol(i, temp)
-		}
-		return toFloatSlice(wMatrix)
+
+		// ai = softmax(zi)
+		ai := softmax(zival)
+
+		// ei = ai - yi
+		ei := make([]float64, len(ai))
+		floats.SubTo(ei, ai, yi)
+		eivec := mat.NewVecDense(len(ei), ei)
+
+		// dL/dW = xi*ei^t
+		dW := mat.NewDense(wr, wc, nil)
+		dW.Mul(xivec, eivec.T())
+
+		return toFloatSlice(dW.T())
 	}
 
 	epochProvider := &graddesc.StochasticProvider{
@@ -89,7 +95,8 @@ func (m *Model) Train(dataset mygoml.SupervisedDataSet) error {
 			return graddesc.Function{
 				InputSize: wr * wc,
 				Gradient: func(w []float64) []float64 {
-					return gradient(xi, yi, wMatrix)
+					grad := gradient(xi, yi, wMatrix)
+					return grad
 				},
 			}
 		},
@@ -107,7 +114,6 @@ func (m *Model) Train(dataset mygoml.SupervisedDataSet) error {
 		LearningRate:  0.05,
 		MaxStep:       1000,
 		Updater:       &graddesc.BaseUpdater{},
-		CheckInterval: 20,
 	}
 
 	wData = op.Optimize(wData)
@@ -125,9 +131,6 @@ func (m *Model) Predict(features []float64) ([]float64, error) {
 	featureVector := mat.NewVecDense(len(features)+1, append(features, 1))
 	var result mat.Dense
 	result.Mul(m.weights.T(), featureVector)
-	result.Apply(func(i, j int, v float64) float64 {
-		return sigmod(v)
-	}, &result)
-	predicted := mat.Col(nil, 0, &result)
-	return predicted, nil
+	z := mat.Col(nil, 0, &result)
+	return softmax(z), nil
 }
