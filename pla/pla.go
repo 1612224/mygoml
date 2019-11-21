@@ -1,4 +1,4 @@
-package perceptron
+package pla
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 	"gonum.org/v1/gonum/mat"
 )
 
-type Perceptron struct {
+type Model struct {
 	weights mat.Matrix
 }
 
@@ -34,7 +34,7 @@ func copyFloats(x []float64) []float64 {
 	return n
 }
 
-func (p *Perceptron) Train(dataset mygoml.SupervisedDataSet) error {
+func (p *Model) Train(dataset mygoml.SupervisedDataSet) error {
 	X, Y := helpers.ConvertSupervisedDataset(dataset, true)
 	wr, xcount := X.Dims()
 	wc, _ := Y.Dims()
@@ -95,7 +95,7 @@ func (p *Perceptron) Train(dataset mygoml.SupervisedDataSet) error {
 	return nil
 }
 
-func (p *Perceptron) Predict(features []float64) ([]float64, error) {
+func (p *Model) Predict(features []float64) ([]float64, error) {
 	if r, _ := p.weights.Dims(); len(features) != r-1 {
 		msg := fmt.Sprintf("model expects %d features but got %d features", r-1, len(features))
 		return nil, mygoml.ErrIncompatibleDataAndModel(msg)

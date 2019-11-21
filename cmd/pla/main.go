@@ -3,7 +3,7 @@ package main
 import (
 	"image/color"
 	"mygoml"
-	"mygoml/perceptron"
+	"mygoml/pla"
 	"time"
 
 	"gonum.org/v1/plot"
@@ -116,12 +116,12 @@ func main() {
 	p.Add(plotter.NewGrid())
 	p.Add(group1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(group2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/perceptron/perceptron_data.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/pla/pla_data.png"); err != nil {
 		panic(err)
 	}
 
 	// define model
-	model := &perceptron.Perceptron{}
+	model := &pla.Model{}
 
 	// train model
 	model.Train(rps)
@@ -151,7 +151,7 @@ func main() {
 
 	p.Add(t1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(t2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/perceptron/perceptron_test.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/pla/pla_test.png"); err != nil {
 		panic(err)
 	}
 
@@ -167,7 +167,7 @@ func main() {
 
 	p.Add(pd1.Plotter(draw.TriangleGlyph{}, color.RGBA{R: 255, A: 255}))
 	p.Add(pd2.Plotter(draw.RingGlyph{}, color.RGBA{G: 255, A: 255}))
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/perceptron/perceptron_final.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "cmd/pla/pla_final.png"); err != nil {
 		panic(err)
 	}
 }
